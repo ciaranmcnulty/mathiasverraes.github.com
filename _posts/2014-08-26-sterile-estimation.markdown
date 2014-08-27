@@ -17,7 +17,7 @@ image: "http://verraes.net/img/posts/2014-08-26-sterile-estimation/clock.jpg"
 
 Let's try an experiment. Do you believe me when I tell you that Mahatma Ghandi died at the ripe old age of 140? Probably not, because that would have been rather spectacular. Just make a guess of what his actual age was, and write it down.
 
-Now got to a colleague (you are reading this at work, aren't you?) and ask them whether Ghandi died at age 9. Then ask them to estimate his age was. My prediction is that their answer will be significantly lower than yours (assuming neither of you knows the real answer). The effect at play here is called the **Anchoring Bias**.
+Now go to a colleague (you are reading this at work, aren't you?) and ask them whether Ghandi died at age 9. Then ask them to estimate his age was. My prediction is that their answer will be significantly lower than yours (assuming neither of you knows the real answer). The effect at play here is called the **Anchoring Bias**.
 
 Car salesmen have known about it for a long time of course. They'll start by quoting a high price for a car, more than it's worth. Because they've anchored this number in your mind, any lower price they will quote you next, will seem quite reasonable to you. You are not comparing the number to whatever you're willing to spend, but to whatever they put in your head. (I bet you can see where I'm going with this.)
 
