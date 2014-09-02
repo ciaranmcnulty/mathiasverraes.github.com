@@ -74,6 +74,10 @@ $customer->pay($order, $money);
 The downside of this, is that we are coupling the Customer to the Order. This may or may not be desirable, depending on
 context. In any case, it's always worth considering.
 
+## Read more
+
+- [Decoupling the Model from the Framework](/2014/09/decoupling-model-framework/)
+- [Decoupling Forms from Entities](/2013/04/decoupling-symfony2-forms-from-entities/)
 
 
 
