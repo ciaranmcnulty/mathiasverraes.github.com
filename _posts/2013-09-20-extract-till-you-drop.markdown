@@ -9,14 +9,11 @@ abstract: "If I'm not afraid to refactor messy code in front of a live audience,
 image: "https://speakerd.s3.amazonaws.com/presentations/3ce44050041f0131954556f7ac4f018a/slide_0.jpg?1392394580"
 ---
 
-### Screencast
+"Extract Till You Drop" is a live refactoring demo that I used to do at conferences and as a webinar. There are no slides, it's all coding. I suspect that the one I did at PHP Tour Lyon is the best recording:
 
-There are no slides for this presentation, it's all live demoing. [The code is on GitHub](https://github.com/mathiasverraes/extract-till-you-drop).
- I prerecorded a screencast. You'll notice I haven't managed to cram in everything I hoped to show, when I wrote the abstract.
- If plenty of people are interested, I'll record more videos of refactoring techniques.
+<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/1_dpOZmKXBw" frameborder="0" allowfullscreen></iframe>
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/S9pKJxOPmWM" frameborder="0" allowfullscreen></iframe>
-[Watch video on YouTube](https://www.youtube.com/watch?v=S9pKJxOPmWM)
+There are [other recordings of that talk on Youtube](https://www.youtube.com/playlist?list=PLKpYkFzrFTkGXp_AODGIyiNrm5wdySghs).
 
 The title refers to a quote from [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/one-thing-extract-till-you-drop) about applying Extract Method and other refactors until every element in your
   system has just one responsibility:
@@ -25,8 +22,7 @@ The title refers to a quote from [Robert C. Martin](https://sites.google.com/sit
 years, I’m beginning to come to the conclusion that this level of extraction is not taking things too far at all. In fact,
 to me, it looks just about right. So, my advice: Extract till you just can’t extract any more. Extract till you drop.</blockquote>
 
-I owe a lot to Sandro Mancuso, who did a similar, much more advanced presentation in Java, which greatly inspired me to try this in PHP.
-Many of the ideas here are <strike>stolen</strike> borrowed from him.
+I owe a lot to Sandro Mancuso, who did a similar, much more advanced presentation in Java, which greatly inspired me to try this in PHP. Many of the ideas here are borrowed from him.
 
 ### Events
 
