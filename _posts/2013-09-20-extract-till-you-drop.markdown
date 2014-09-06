@@ -9,11 +9,12 @@ abstract: "If I'm not afraid to refactor messy code in front of a live audience,
 image: "https://speakerd.s3.amazonaws.com/presentations/3ce44050041f0131954556f7ac4f018a/slide_0.jpg?1392394580"
 ---
 
-"Extract Till You Drop" is a live refactoring demo that I used to do at conferences and as a webinar. There are no slides, it's all coding. I suspect that the one I did at PHP Tour Lyon is the best recording:
+"Extract Till You Drop" is a live refactoring demo that I used to do at conferences and as a webinar. There are no slides, it's all coding.
+
+**Update Sep 6, 2014** (Replaced my home made recording with the one from PHP Tour Lyon. The talk has evolved slightly during the months I presented it at conferences. Find [other recordings of that talk on Youtube](https://www.youtube.com/playlist?list=PLKpYkFzrFTkGXp_AODGIyiNrm5wdySghs).)
 
 <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/1_dpOZmKXBw" frameborder="0" allowfullscreen></iframe>
 
-There are [other recordings of that talk on Youtube](https://www.youtube.com/playlist?list=PLKpYkFzrFTkGXp_AODGIyiNrm5wdySghs).
 
 The title refers to a quote from [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/one-thing-extract-till-you-drop) about applying Extract Method and other refactors until every element in your
   system has just one responsibility:
