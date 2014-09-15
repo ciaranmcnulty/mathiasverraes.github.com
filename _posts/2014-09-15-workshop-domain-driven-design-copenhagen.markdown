@@ -5,7 +5,7 @@ date: 2014-09-15
 layout: post
 published: true
 tags: [blog, workshop]
-abstract: "Three day intensive workshop for developers, December 8-10 2015, in Copenhagen , Denmark"
+abstract: "Three day intensive workshop for developers, December 8-10 2014, in Copenhagen , Denmark"
 image: "http://verraes.net/img/posts/2014-06-18-workshop-expddd/modelstorming.jpg"
 ---
 
@@ -61,9 +61,9 @@ You are a Software Developer with some years of experience in working with compl
 <a href="https://docs.google.com/a/verraes.net/forms/d/1stcxn_0SED70cYuGqXHWsJov89xqQjfgh0oItfzqIS8/viewform" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a>
 
 - Course fee: EUR 1195,- for three days
-- **Early Bird price until October 31, 2015 : EUR 1095,-**
+- **Early Bird price until October 31, 2014 : EUR 1095,-**
 - Course fee includes lunch, snacks, and drinks.
-- December 8-10, 2015 9:00-17:00
+- December 8-10, 2014 9:00-17:00
 - Language: English
 - Venue: [Radisson Blu Royal Hotel,
 Hammerichsgade 1, DK-1611 Copenhagen, Denmark](http://www.radissonblu.com/royalhotel-copenhagen/location)
