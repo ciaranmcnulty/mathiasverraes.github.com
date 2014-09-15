@@ -1,11 +1,11 @@
 ---
-title: "Ghent Workshop: Experiencing Domain-Driven Design"
-slug: workshop-domain-driven-design-ghent
-date: 2014-08-28
+title: "Copenhagen Workshop: Experiencing Domain-Driven Design"
+slug: workshop-domain-driven-design-copenhagen
+date: 2014-09-15
 layout: post
 published: true
 tags: [blog, workshop]
-abstract: "Three day intensive workshop for developers, January 21-23 2015, in Ghent, Belgium."
+abstract: "Three day intensive workshop for developers, December 8-10 2015, in Copenhagen , Denmark"
 image: "http://verraes.net/img/posts/2014-06-18-workshop-expddd/modelstorming.jpg"
 ---
 
@@ -33,11 +33,15 @@ In this workshop, we’ll explore this central premise of Domain-Driven Design. 
 
 No more than 15 participants are accepted. By keeping the group small, everyone’s questions can properly be addressed. Lunch, snacks, and drinks are included.
 
-## Testimonial
+## Testimonials
 
 _“I spent three days immersed in the Domain-Driven Design world with Mathias. It was a great experience where I learned a lot about DDD. Mathias created an environment where we could interact all together experimenting with DDD. Furthermore Mathias adapted the workshop content dynamically to our needs and our concerns. It is a recommended experience!”_
 
 -- Jordi Llonch, Technical Lead, Akamon Entertainment (Spain)
+
+_“Mathias made Domain-Driven Design very real and practical. He managed to find a good balance between practical workshop, theory, and sharing experiences. This workshop really gave me the keys to use DDD in our projects and showed me new perspectives like Event Sourcing. It is definitely a must have complement to the usual books by Eric Evans and Vaughn Vernon. I would definitely recommend this workshop to any developer or architect who is keen to learn a different way to model software.”_
+
+-- Sébastien Abras, Senior Software Architect, EVS Broadcast (Belgium)
 
 ## About the instructor
 
@@ -54,14 +58,15 @@ You are a Software Developer with some years of experience in working with compl
 
 ## Misc
 
-<a href="https://docs.google.com/forms/d/1yiHkJDHRnVl4M6auGKuPBT8JpzhV-9Y_9YM45ALHxL0/viewform?usp=send_form" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a>
+<a href="https://docs.google.com/a/verraes.net/forms/d/1stcxn_0SED70cYuGqXHWsJov89xqQjfgh0oItfzqIS8/viewform" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a>
 
-- <strike>Course fee: EUR 1095,- ex VAT for three days</strike>
-- **Early Bird price until November 15: EUR 995,- ex VAT**
+- Course fee: EUR 1195,- for three days
+- **Early Bird price until October 31, 2015 : EUR 1095,-**
 - Course fee includes lunch, snacks, and drinks.
-- January 21-23, 2015, 9:30-17:30
+- December 8-10, 2015 9:00-17:00
 - Language: English
-- Venue: [Zebrastraat conference center](http://www.zebrastraat.be/), Ghent, Belgium
+- Venue: [Radisson Blu Royal Hotel,
+Hammerichsgade 1, DK-1611 Copenhagen, Denmark](http://www.radissonblu.com/royalhotel-copenhagen/location)
 - <a href="/workshops/terms-and-conditions/">Terms and Conditions</a>
 
 
