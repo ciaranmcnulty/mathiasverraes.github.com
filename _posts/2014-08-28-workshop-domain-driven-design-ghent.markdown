@@ -51,6 +51,7 @@ You are a Software Developer with some years of experience in working with compl
 
 - Having read [“Domain-Driven Design” (Evans, 2004)](http://www.amazon.com/gp/product/B00794TAUG/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00794TAUG&linkCode=as2&tag=verraesnet-20&linkId=WRSOTVWFOQGBX2BT) is recommended, but not essential.
 - Laptops or other devices are not required, but useful for taking notes.
+- The course is programming language agnostic.
 
 ## Misc
 
