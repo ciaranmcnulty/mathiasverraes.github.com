@@ -22,7 +22,7 @@ A guiding principle here is Clarity of Intent. Making a machine do what we want 
 Code is often part of something bigger. This can get really complex, really quickly. The constraints we impose, help us to limit the cognitive load for developers working with our code. We encapsulate the details, and expose only what outside code needs to talk to us.
 
 Another such constraint is the Open/Closed Principle. It states that software entities should be open for extension, but closed for modification.
-Closed for modification, in this context, means that when your code exposes some behavior to the outside world, that interface should be stable.  Providing an API is a responsibility: by allowing other code to access features of your system, you need to give certain guarantees of stability or low change frequency. The behaviour should be deterministic. It does not mean your implementation can not change. The changes should not affected outside code.
+Closed for modification, in this context, means that when your code exposes some behavior to the outside world, that interface should be stable.  Providing an API is a responsibility: by allowing other code to access features of your system, you need to give certain guarantees of stability or low change frequency. The behaviour should be deterministic. It does not mean your implementation can not change. The changes should not affect outside code.
 
 
 
