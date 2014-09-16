@@ -43,7 +43,7 @@ Similarly, we can mark elements with @internal or @api. @internal indicates to t
 
 ## Conclusion
 
-Still in doubt? Consider this: if a class is a closed now, or a method is private, or an element is @internal, you are free to change it or remove it. Should a valid reason come up to open it up, it will be easy to do so, because nothing depends on it being closed. On the other hand, if you start by making everything open or inheritable, it will be very hard to close it later. Somewhere, perhaps invisible to you, something might depend on it. Closing it, or even making a small change, will break that code.
+Still in doubt? Consider this: when a class is closed for inheritance, or a method is private, or an element is @internal, you are free to change it or remove it. This freedom removes a lot of the burden of refactoring. Should a valid reason come up to open the class or method, it will be easy to do so, because nothing depends on it being closed. On the other hand, if you start by making everything open or inheritable, it will be very hard to close it later. Somewhere, perhaps invisible to you, something might depend on it. Closing it, or even making a small change, will break that code.
 
 Finally, I have a hypothesis. If, like some other languages, classes in php were final by default, and needed an "inheritable" keyword to open them up, many people who are now opposed to the final keyword, would have no problem with it at all.
 
