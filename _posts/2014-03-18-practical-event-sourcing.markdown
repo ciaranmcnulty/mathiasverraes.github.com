@@ -27,7 +27,7 @@ In the past year, I've had the pleasure of building and shipping two event sourc
 
 ## Presentations
 
-- [PHPNE 2014](http://conference.phpne.org.uk/) in Newcastle-Upon-Thyne, UK, March 18, 2014
+- [PHPNE 2014](http://conference.phpne.org.uk/) in Newcastle upon Tyne, UK, March 18, 2014
   - [Joind.in reviews](http://joind.in/talk/view/10911)
 - [PHPBenelux](http://www.meetup.com/phpbenelux/events/176199372/) in Bruges, Belgium, April 29 2014
 - [PHPDay](http://2014.phpday.it/) in Verona, Italy, May 16-17 2014
