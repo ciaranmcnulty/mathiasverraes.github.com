@@ -22,7 +22,7 @@ A guiding principle here is Clarity of Intent. Making a machine do what we want 
 Code is often part of something bigger. This can get really complex, really quickly. The constraints we impose, help us to limit the cognitive load for developers working with our code. We encapsulate the details, and expose only what outside code needs to talk to us.
 
 Another such constraint is the Open/Closed Principle. It states that software entities should be open for extension, but closed for modification.
-Closed for modification, in this context, means that when your code exposes some behavior to the outside world, that interface should be stable.  Providing an API is a responsibility: by allowing other code to access features of your system, you need to give certain guarantees of stability or low change frequency. The behaviour should be deterministic. It does not mean your implementation can not change. The changes should not affected outside code.
+Closed for modification, in this context, means that when your code exposes some behavior to the outside world, that interface should be stable.  Providing an API is a responsibility: by allowing other code to access features of your system, you need to give certain guarantees of stability or low change frequency. The behaviour should be deterministic. It does not mean your implementation can not change. The changes should not affect outside code.
 
 
 
@@ -43,7 +43,7 @@ Similarly, we can mark elements with @internal or @api. @internal indicates to t
 
 ## Conclusion
 
-Still in doubt? Consider this: if a class is a closed now, or a method is private, or an element is @internal, you are free to change it or remove it. Should a valid reason come up to open it up, it will be easy to do so, because nothing depends on it being closed. On the other hand, if you start by making everything open or inheritable, it will be very hard to close it later. Somewhere, perhaps invisible to you, something might depend on it. Closing it, or even making a small change, will break that code.
+Still in doubt? Consider this: when a class is closed for inheritance, or a method is private, or an element is @internal, you are free to change it or remove it. This freedom removes a lot of the burden of refactoring. Should a valid reason come up to open the class or method, it will be easy to do so, because nothing depends on it being closed. On the other hand, if you start by making everything open or inheritable, it will be very hard to close it later. Somewhere, perhaps invisible to you, something might depend on it. Closing it, or even making a small change, will break that code.
 
 Finally, I have a hypothesis. If, like some other languages, classes in php were final by default, and needed an "inheritable" keyword to open them up, many people who are now opposed to the final keyword, would have no problem with it at all.
 
