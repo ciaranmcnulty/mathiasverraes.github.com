@@ -15,6 +15,8 @@ A lot of so-called Object-Oriented Programming[^1] is in fact nothing more than 
 
 “*Objects should just be bags of state and nothing more. An invoice does not pay itself. An appointment does not reschedule itself.*[^2] `invoice.pay(anAmount)` *and* `appointment.reschedule(aDate)` *do not match the real world. Something on the outside drives the action. A service of some kind should do the paying and the rescheduling, and then update the state of those objects:* `invoice.setPaidAmount(anAmount)` *and* `appointment.setDate(aDate)`. *By consequence, not in the objects, but the services should contain the business logic.*”
 
+(**Update**: For the record, I do not agree with the view stated above in italics. What follows explains why encapsulating operations in objects, such as invoice.pay(...), is in fact the correct way to model objects.)
+
 <img style="float:left;margin-right: 10px" src="/img/posts/2014-09-29-objects-as-contracts-for-behaviour/Action_Design_Over_Time_01_gallery_small.jpg" alt="Anaemic objects">
 
 Of course invoices do not pay themselves, but that’s not what an object model is trying to do. An invoice **exposes the behaviour of being able to be paid**. That ability is in fact essential to what it means to be an invoice. The behaviour is an inherent property of an invoice. If an invoice doesn’t have the ability of being paid, there’s no point in issuing invoices at all. In other words, the contract of an invoice object declares that  its interface includes payment as a feature. Its promise to the outside world is that it allows an outsider to pay for it.
