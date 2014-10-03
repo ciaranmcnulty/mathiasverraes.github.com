@@ -127,3 +127,6 @@ Humans favour courses of action that have a well-known, limited set of potential
 
 The opposite is a course of action that has a well-known, limited potential cost, with an unknown, unlimited potential gain. In "[Antifragile](/2013/08/antifragile-nassim-nicholas-taleb/)", borrowing from the finance world, Nicholas N. Taleb calls this "optionality". Keep this in mind: many many very small experiments with a very limited cost, will eventually produce totally unexpected outcomes.
 
+## Read More
+
+[My talk on Small Controlled Experiments](/2014/10/small-controlled-experiments-revisited/)
