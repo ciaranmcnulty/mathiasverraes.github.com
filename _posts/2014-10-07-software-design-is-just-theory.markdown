@@ -41,5 +41,6 @@ Learning is the bottleneck[^2], and always will be.
 ## Read more
 
 - [Build for Failure](/2014/01/build-for-failure/)
+- [The Gift of Legacy](http://www.jefclaes.be/2011/10/gift-of-legacy.html) by [@JefClaes](https://twitter.com/JefClaes)
 - [How to Read More Books](/2012/12/how-to-read-more-books/)
 - [Beautiful Code](/2011/04/beautiful-code/)
