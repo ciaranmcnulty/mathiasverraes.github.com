@@ -59,4 +59,7 @@ What is required is not a large System, but a *different approach*. Trying to de
 System will somehow solve the Problem, rather than simply solving the Problem in the first place, is to present oneself
 with two problems in place of one.</blockquote>
 
-Read next: [Antifragile - Things That Gain from Disorder](/2013/08/antifragile-nassim-nicholas-taleb/) - August 29, 2013
+## Read more
+
+- [Build for Failure](/2014/01/build-for-failure/)
+- [Antifragile - Things That Gain from Disorder](/2013/08/antifragile-nassim-nicholas-taleb/)

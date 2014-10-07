@@ -32,3 +32,9 @@ Some cultures teach us to aspire to perfection and punish mistakes in education 
 The faster you can prove code incorrect, the faster and more accurately you can fix it. Believing that code works and proving that it behaves as expected is less science, more magical thinking. It's far better to be able to say, "libzmq has five hundred assertions and despite all my efforts, not one of them fails".
 
 </blockquote>
+
+
+## Read more
+
+- [“Software design is just theory”](/2014/10/software-design-is-just-theory/)
+- [The Systems Bible](/2013/08/john-gall-systemantics-the-systems-bible/)
