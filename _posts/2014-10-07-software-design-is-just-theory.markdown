@@ -35,7 +35,7 @@ Learning is the bottleneck[^2], and always will be.
 
 
 [^1]: Quote by Pieter Hintjens
-[^2]: Quote by Alberto Brandolini
+[^2]: I'm not sure who said this first, but it appears that Ashley Johnson was one of the first.
 
 
 ## Read more
