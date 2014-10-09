@@ -1,6 +1,6 @@
 ---
 title: "“Software design is just theory”"
-slug: 2014-10-07software-design-is-just-theory
+slug: software-design-is-just-theory
 date: 2014-10-07
 layout: post
 published: true
