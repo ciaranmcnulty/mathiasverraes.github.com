@@ -4,7 +4,7 @@ slug: aaa-bbb-ccc
 date: yyyy-mm-dd
 layout: post
 published: true
-tags: [blog, workshop, talk]
+tags: [blog, workshop, talk @TODO]
 abstract: "@TODO abstract"
 image: "http://verraes.net/img/posts/@TODO"
 ---
