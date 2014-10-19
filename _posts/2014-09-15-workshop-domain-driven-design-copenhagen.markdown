@@ -3,7 +3,7 @@ title: "Copenhagen Workshop: Experiencing Domain-Driven Design"
 slug: workshop-domain-driven-design-copenhagen
 date: 2014-09-15
 layout: post
-published: true
+published: false
 tags: [blog, workshop]
 abstract: "Three day intensive workshop for developers, December 8-10 2014, in Copenhagen , Denmark"
 image: "http://verraes.net/img/posts/2014-06-18-workshop-expddd/modelstorming.jpg"
