@@ -29,6 +29,9 @@ In this workshop, we’ll explore this central premise of Domain-Driven Design. 
 - Applying General Systems Thinking and problem-solving techniques
 - Visualizing strategic design using Bounded Contexts and Context Mapping
 - Integrating with brownfield systems
+- Tactical Design Patterns
+- CQRS and Event Sourcing
+- Modelling exercises
 - ...
 
 No more than 15 participants are accepted. By keeping the group small, everyone’s questions can properly be addressed. Lunch, snacks, and drinks are included.
