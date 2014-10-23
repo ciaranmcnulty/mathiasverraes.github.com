@@ -39,6 +39,12 @@ _“I spent three days immersed in the Domain-Driven Design world with Mathias. 
 
 -- Jordi Llonch, Technical Lead, Akamon Entertainment (Spain)
 
+_“Mathias made Domain-Driven Design very real and practical. He managed to find a good balance between practical workshop, theory, and sharing experiences. This workshop really gave me the keys to use DDD in our projects and showed me new perspectives like Event Sourcing. It is definitely a must have complement to the usual books by Eric Evans and Vaughn Vernon. I would definitely recommend this workshop to any developer or architect who is keen to learn a different way to model software.”_
+
+-- Sébastien Abras, Senior Software Architect, EVS Broadcast (Belgium)
+
+
+
 ## About the instructor
 
 Mathias Verraes is a recovering music composer turned programmer, consultant, blogger, speaker, and trainer. He advises companies on how to build enterprise web applications for complex business domains. For some weird reason, he enjoys working on large legacy projects: the kind where there’s half a million lines of spaghetti code, and nobody knows how to get the codebase under control. He’s the founder of the Domain-Driven Design Belgium community. When he’s not working, he’s at home in Kortrijk, Belgium, helping his two sons build crazy Lego train tracks.
