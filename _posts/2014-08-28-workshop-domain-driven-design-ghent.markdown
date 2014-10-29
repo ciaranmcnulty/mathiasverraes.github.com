@@ -46,6 +46,9 @@ _“Mathias made Domain-Driven Design very real and practical. He managed to fin
 
 -- Sébastien Abras, Senior Software Architect, EVS Broadcast (Belgium)
 
+_“Event Storming is truly valuable, also as an exercise. I found the patterns to separate domains and their relations very interesting. (...) I've discovered that DDD has many patterns and strategies that we seem to have lost. It is essential knowledge for every developer, from junior to architect. For more experienced developers (and business architects), the Strategic Domain-Driven Design workshop gives theory and experience to better deal with (business) domains, relations, Bounded Contexts, and how to map systems. Must attend!”_ <small>(translated from Dutch)</small>
+
+-- Marc Van Andel, Integration Specialist / Software Architect Java, Kadaster (Netherlands)
 
 
 ## About the instructor
