@@ -15,7 +15,7 @@ You are reading this on an Information Overload Device. Probably one that fits i
 <img style="margin-bottom: 10px" src="/img/posts/2014-06-27-information-overload/biografias-alicia-martin-2.jpeg" alt="Information Overload">
 
 
-The way humans deals with information overload, is to scan quickly, and put everything in bucket. We find the similarities with ideas we already know, and then categorize it under the same name. It's a database that stores entire documents? Oh, then it's a document database, like the document database I already know about. It has small iterations? It's an agile methodology like Scrum. It uses the language of the business? It's like BDD. You get the picture. Categorizing information is often a necessary strategy.
+The way humans deals with information overload, is to scan quickly, and put everything in buckets. We find the similarities with ideas we already know, and then categorize it under the same name. It's a database that stores entire documents? Oh, then it's a document database, like the document database I already know about. It has small iterations? It's an agile methodology like Scrum. It uses the language of the business? It's like BDD. You get the picture. Categorizing information is often a necessary strategy.
 
 We do so much of the "scan, bucket, repeat"-cycles, that we forget to actually process interesting information. My method is simply this:
 
