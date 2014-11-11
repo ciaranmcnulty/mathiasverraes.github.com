@@ -39,3 +39,6 @@ Making this Bandwidth explicit, by drawing fatter and thinner edges, helps you m
 **Update 2014-01-16**
 I missed a small nuance. It's not about the amount of communication going on per se, but rather about the *potential*, or the *capacity*, for communication.
 
+## Read more
+
+- [Buzzword-free Bounded Contexts](/2014/02/buzzword-free-bounded-contexts/)

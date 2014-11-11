@@ -43,3 +43,7 @@ So why do we make it so hard on ourselves when we are just one team? We can borr
 - Make the contexts explicit. ("A Product in the context of Shipping is ...")
 - Make the boundaries explicit. ("Shipping uses database A, Inventory uses database B...")
 - Keep the models consistent within a Bounded Context. Well, keeping your models consistent is a good idea anyway.
+
+## Read more
+
+- [Bandwidth and Context Mapping](/2014/01/bandwidth-and-context-mapping/)
