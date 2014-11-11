@@ -11,11 +11,11 @@ abstract: "Domain Events allow you to segregate the models of different systems"
 
 ## Boundaries & Messages
 
-A system's design is defined by it's boundaries, and by the way it communicates with other systems. This outward facing design is, all things considered, more important than the internals. It is important whether we are talking about really small systems (such as an object) or large systems.
+A system's design is defined by it's boundaries, and by the way it communicates with other systems. This outward facing design is, all things considered, more important than the internals. It is important whether we are talking about small systems (such as an object) or large systems.
 
- The communication between systems happens with messages. We can say that our system is bounded when it does not need to know anything about the internal structure of systems it communicates with, and those systems do no need to know anything about our system. When the boundaries are chosen well, we can achieve greater decoupling between systems. This allows us to modify the internals of the systems, or replace them altogether.
+ The communication between systems happens with messages. We can say that our system is bounded when it does not need to know anything about the internal structure of systems it communicates with, and those systems do no need to know anything about our system. When the boundaries are chosen well, we can achieve greater decoupling between systems. This allows us to change the internals of the systems, or replace them altogether.
 
-In software, different systems agree on a protocol that describes the shape of the message. Without it, the message is meaningless. The protocol might be implicit, but typically, the more users a protocol has, the more it needs to be formally described. For example, look at the RFCs that describe the Internet. A protocol is not just an encoding, like JSON or XML, it also describes what properties you'll find in the message, and how to interpret them. Messages can be broadcast, queued, logged, persisted, discarded, ... Depending on the infrastructure, they can arrive late, out of order, more than once, or never at all. If we need high precision, we can't even trust their timestamp. Understanding the infrastructure and taking the constraints into account, is critical here.
+In software, different systems agree on a protocol that describes the shape of the message. Without it, the message is meaningless. The protocol might be implicit, but typically, the more users a protocol has, the more it needs to be formally described. For example, look at the RFCs that describe the Internet. A protocol is not just an encoding, like JSON or XML. It also describes what properties you'll find in the message, and how to interpret them. Messages can be broadcast, queued, logged, persisted, discarded, ... Depending on the infrastructure, they can arrive late, out of order, more than once, or never at all. If we need high precision, we can't even trust their timestamp. Understanding the infrastructure and taking the constraints into account, is critical here.
 
 ## Separate Models
 
@@ -27,7 +27,7 @@ Messages are immutable. Say A sends a message X to B and C. If B were to change 
 
 ## Envelopes
 
-Sometimes we want to add metadata to a message. These are values that are not part of the actual message, bt rather of the surrounding infrastructure: the originating machine, the destination, timestamps, IP's, the browser, user information, ... I like the analogy of an envelope here. You can write on it, without affecting the message. The message is wrapped before being sent, and unwrapped at its arrival. All other systems that are involved in the transport, queuing, or persistence of messages, are unaware of the contents of the envelope. This reflects how postal services have worked for centuries. (Censorship and redaction of messages can be seen as a violation of this contract between sender and receiver.)
+Sometimes we want to add metadata to a message. These are values that are not part of the actual message, but rather of the surrounding infrastructure: the originating machine, the destination, timestamps, IP's, the browser, user information, ... I like the analogy of an envelope here. You can write on it, without affecting the message. The message is wrapped before being sent, and unwrapped at its arrival. All other systems that are involved in the transport, queuing, or persistence of messages, are unaware of the contents of the envelope. This reflects how postal services have worked for centuries. (Censorship and redaction of messages can be seen as a violation of this contract between sender and receiver.)
 
 ## Events
 
@@ -63,7 +63,7 @@ It is a mistake to design Domain Events as objects first, and then worry about s
     }
 }
 
-The price could have been expressed as "EUR 500" instead of a nested structure. The point here is to choose based on what is best for all involved systems, not just what is easiest to produce or consume in the system you are currently working on.
+The price could be expressed as "EUR 500" instead of a nested structure. The point here is to choose based on what is best for all involved systems, not just what is easiest to produce or consume in the system you are currently working on.
 
 ## Internal representation
 
