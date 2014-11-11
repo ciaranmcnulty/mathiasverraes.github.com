@@ -62,6 +62,8 @@ It is a mistake to design Domain Events as objects first, and then worry about s
         "pricePerUnit": { "amount": 500, "currency": "EUR"}
     }
 }
+```
+
 
 The price could be expressed as "EUR 500" instead of a nested structure. The point here is to choose based on what is best for all involved systems, not just what is easiest to produce or consume in the system you are currently working on.
 
