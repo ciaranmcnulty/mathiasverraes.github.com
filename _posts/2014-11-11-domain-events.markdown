@@ -54,7 +54,7 @@ In some cases, we can reduce the burden on the receiver to keep track of older s
 
 It is a mistake to design Domain Events as objects first, and then worry about serializing them. It should be the other way around. Domain Events are first and foremost about communication with other systems (or with yourself in the future, when you'll want to understand what happened in the past -- business intelligence comes to mind). Because of this, we'll want to design them keeping our non-functional requirements in mind: efficiency (binary) versus readability (json), using namespacing to prevent clashes, nested or flat, consumability, ... Here's a simple example:
 
-```
+{% highlight javascript %}
 { "eventName": "acme.my_app.StockWasDepleted",
     "payload": {
         "productId": "2028A516-04C0-4D42-81F4-98A42E2B08BC",
@@ -62,7 +62,8 @@ It is a mistake to design Domain Events as objects first, and then worry about s
         "pricePerUnit": { "amount": 500, "currency": "EUR"}
     }
 }
-```
+{% endhighlight %}
+
 
 
 The price could be expressed as "EUR 500" instead of a nested structure. The point here is to choose based on what is best for all involved systems, not just what is easiest to produce or consume in the system you are currently working on.
