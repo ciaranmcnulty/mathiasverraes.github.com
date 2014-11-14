@@ -1,6 +1,6 @@
 ---
-title: Domain Events Braindump
-slug: domain-events-braindump
+title: Domain Events
+slug: domain-events
 date: 2014-11-11
 layout: post
 published: true
@@ -24,6 +24,8 @@ The receiving end does not need to understand anything about the sender, as long
 ## Immutability
 
 Messages are immutable. Say A sends a message X to B and C. If B were to change the message before passing it on to D, that would not affect A and C. If you draw on a newspaper you've received, only your own copy is affected. Modeling messages as immutable reflects that idea. A better interpretation is that B reacts to X by sending a message Y to D. Even though X and Y may be mostly identical, it is in fact a new message.
+
+(Update Nov 14, 2014) Domain Events should not contain Entities (or Aggregates for that matter). Entities represent something that changes over time. At the point in time that we look at the Event, the Entity might already have changed. So now the Domain Event is no longer an accurate representation of state at that point in time.
 
 ## Envelopes
 
