@@ -5,7 +5,7 @@ date: 2014-12-02
 layout: post
 published: true
 tags: [blog]
-abstract: "@todo"
+abstract: "Elegant Functional Programming in PHP"
 ---
 
 <!-- image: "http://verraes.net/img/posts/@TODO" -->
@@ -378,3 +378,7 @@ The reason it can not work is that PHP is not suitable for recursion. Some langu
 
 PHP will either run out of memory (*Fatal error: Allowed memory size of X bytes exhausted*) or, if you have XDebug installed, it will stop at a 100 calls by default. (*PHP Fatal error:  Maximum function nesting level of '100' reached, aborting*). You can increase `xdebug.max_nesting_level` in php.ini. HHVM overflows (*Fatal error: Stack overflow*). I promise to send some fine Belgian beer or chocolates to whoever fixes this in PHP or HHVM.
 
+## Links
+
+- [Lambdalicious on GitHub](https://github.com/mathiasverraes/lambdalicious)
+- [The full code for this blog post](https://gist.github.com/mathiasverraes/4b76822c6be565a092f7)
