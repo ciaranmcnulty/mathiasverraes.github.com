@@ -53,7 +53,7 @@ possible implementations. You might even discover a thing or two about that clas
 ## Nameable
 
 Another bad habit, is using the `-able` suffix for interface names. I guess I can live with something like `Translatable`,
-or maybe `Serializable`. But `Timestampable? `Jsonable`? Is that the world we want our children to inherit? English motherfucker,
+or maybe `Serializable`. But `Timestampable`? `Jsonable`? Is that the world we want our children to inherit? English motherfucker,
 do you speak it? Try making a sentence, it's so much nicer.
 
 {% highlight php %}
