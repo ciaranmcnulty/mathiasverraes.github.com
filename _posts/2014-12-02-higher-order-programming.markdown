@@ -251,7 +251,46 @@ assert(isequal(
 
 ## Filter and Reduce
 
-@todo
+`filter` and `reduce` are two other very commonly used higher order functions. They are globally defined in λlicious. The implementation is similar to that of `map`, so I'll leave them as an exercise to the λlicious student. We'll use them later in this post. Here's a skeleton to get you started:
+
+
+{% highlight php %}
+<?php
+$filter = function($function, $list, $acc = []) use(&$filter) {
+    return
+        TERMINATING_CONDITION ? SOME_VALUE :
+        $filter(
+            $function,
+            A_LIST,
+            CALCULATE_THE_NEW_ACCUMULATOR
+        )
+        ;
+};
+
+
+assert(isequal(
+    $filter(function($x) { return $x >= 3;}, [1, 2, 3, 4]),
+    [3, 4]
+));
+
+$reduce = function($function, $list, $init) use(&$reduce) {
+    return
+        TERMINATING_CONDITION ? SOME_VALUE :
+        $reduce(
+            $function,
+            A_LIST,
+            CALCULATE_THE_NEW_INIT
+        )
+        ;
+};
+
+assert(isequal(
+    $reduce(function($x, $y) { return add($x, $y);}, [1, 2, 3], 0),
+    6
+));
+
+{% endhighlight %}
+   
 
 ## Functions returning functions
 
