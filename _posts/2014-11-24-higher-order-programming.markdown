@@ -406,7 +406,7 @@ assert(isequal(
     ));
 {% endhighlight %}
 
-`compose` creates a function that calls `$f` on `$x`, and then calls `$g` on the result of that. 
+`$compose` creates a function that calls `$f` on `$x`, and then calls `$g` on the result of that. The built--in `compose` is a little bit smarter and accepts more than two arguments. 
 
 ## Piping
 
