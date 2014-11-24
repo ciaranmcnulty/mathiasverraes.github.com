@@ -1,14 +1,14 @@
 ---
 title: Higher Order Programming
 slug: higher-order-programming
-date: 2014-12-02
+date: 2014-11-24
 layout: post
 published: true
 tags: [blog]
 abstract: "map(divide(__, 2), __) and other excursions into elegant functional programming in PHP"
+image: "http://verraes.net/img/posts/2014-11-24-higher-order-programming/sandwiches.png"
 ---
 
-<!-- image: "http://verraes.net/img/posts/@TODO" -->
 
 Let's have some fun with higher order programming in PHP. I'll start by showing how to program with Lambdalicious (or λlicious for friends) and introduce the real meat along the way. Don't worry too much about the dark magic that may appear to power some of the features of Lambdalicious. It's [on GitHub](https://github.com/mathiasverraes/lambdalicious) if you're curious. Just follow along and keep track of all the functions. 
 
@@ -199,7 +199,7 @@ assert(isequal(
 ));
 {% endhighlight %}
 
-`$halves3` passes our test. Recursion is great fun, and can be very rewarding. It's especially useful for making obvious jokes. If you feel you don't really get recursion, I advise you to read [this wonderful blog post](@TODO RECURSE TO SELF).
+`$halves3` passes our test. Recursion is great fun, and can be very rewarding. It's especially useful for making obvious jokes. If you feel you don't really get recursion, I advise you to read [this wonderful blog post](/2014/11/higher-order-programming/).
 
 ## Deduplication
 
