@@ -352,7 +352,7 @@ Wouldn't it be nice if we had an elegant syntax to partially call functions? In 
 <?php
 $half3 = divide(__, 2); // returns a function $f($x){ return divide($x, 2); }
 assert(isequal(
-    $half(8), 4
+    $half3(8), 4
 ));
 $increment = add(1, __); // returns a function $f($y){ return add(1, $y); }
 assert(isequal(
