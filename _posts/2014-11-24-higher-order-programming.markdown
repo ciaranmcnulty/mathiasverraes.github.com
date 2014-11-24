@@ -82,7 +82,7 @@ assert(isequal(
 ));
 {% endhighlight %}
 
-Remember that `head` always returns an element, and `tail` returns a list. Obviously with lists of lists, that can get a little confusing:
+Remember that `head` always returns an element, and `tail` returns a list.
 
 ## Functions
 
