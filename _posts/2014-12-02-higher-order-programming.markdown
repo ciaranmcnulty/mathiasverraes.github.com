@@ -249,6 +249,10 @@ assert(isequal(
 
 (Later on we'll use the built-in global function `map` instead of our own `$map`, as it's a little smarter.)
 
+## Filter and Reduce
+
+@todo
+
 ## Functions returning functions
 
 Functions that take functions as arguments are just one type of higher order functions. We can also return functions. Let's make a function that makes `$half`.
