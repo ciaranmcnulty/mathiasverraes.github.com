@@ -69,7 +69,7 @@ You are a Software Developer with some years of experience in working with compl
 
 <a href="https://docs.google.com/forms/d/1yiHkJDHRnVl4M6auGKuPBT8JpzhV-9Y_9YM45ALHxL0/viewform?usp=send_form" role="button" class="btn btn-success btn-lg "> Register now <i class="fa fa-arrow-circle-right"></i> </a>
 
-- <strike>Course fee: EUR 1095,- ex VAT for three days</strike>
+- Course fee: EUR 1095,- ex VAT for three days
 - Course fee includes lunch, snacks, and drinks.
 - January 21-23, 2015, 9:30-17:30
 - Language: English
