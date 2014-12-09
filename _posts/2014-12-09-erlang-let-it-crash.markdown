@@ -9,7 +9,7 @@ abstract: "The Erlang view of the world is that everything is a process and that
 image: "http://verraes.net/img/posts/2014-12-09-erlang-let-it-crash/armstrong-erlang.jpg"
 ---
 
-"[Programming Erlang: Software for a Concurrent World, 2nd ed](http://www.amazon.com/gp/product/193778553X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=193778553X&linkCode=as2&tag=verraesnet-20&linkId=JM5GZYMS2A36UJTF)" by Joe Armstrong, is not just a great introduction to the language, but also offers a glimpse into the "Let It Crash" philosophy that drives it. It's a great read, even if you have no intention of programming in Erlang. I've selected and reordered a number of passages, along with some comments, that I hope will do the book justice.
+"[Programming Erlang: Software for a Concurrent World, 2nd ed](http://www.amazon.com/gp/product/193778553X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=193778553X&linkCode=as2&tag=verraesnet-20&linkId=JM5GZYMS2A36UJTF)" by Joe Armstrong, is not just a great introduction to the language, but also offers a glimpse into the "Let It Crash" philosophy that drives it. It's a great read, even if you have no intention of programming in Erlang. I've selected and reordered a number of passages that were scattered across the book, and added some comments, that I hope will do the book justice.
 
 <img style="float:left;margin-right: 10px" src="/img/posts/2014-12-09-erlang-let-it-crash/armstrong-erlang-small.jpg" alt="Programming Erlang">
 
