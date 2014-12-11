@@ -9,13 +9,6 @@ image: "https://speakerd.s3.amazonaws.com/presentations/105cfa00f86b0130e8512276
 ---
 
 
-### Events
-
-#### Past
-
-- [DDD Paris Modellathon](http://www.meetup.com/DDD-Paris/events/142503812/) - October 29, 2013
-- [DDD Belgium Modellathon](http://domaindriven.be) in Ghent, Belgium, September 3, 2013
-
 ### Goal
 
 Many teams are not spending enough time on modeling. Often, they're not particularly good at it, and often, the business
@@ -113,3 +106,10 @@ In any case, I can highly recommend running a modellathon of your own. And, inci
 - Belgian Domain-Driven Design community [domaindriven.be](http://domaindriven.be)
 - [@DDDBE](http://twitter.com/DDDBE) on Twitter
 - Read next: [Facilitating Event Storming](/2013/08/facilitating-event-storming/)
+- 
+
+### Events
+
+- [DDD Belgium Modellathon 2](http://domaindriven.be) in Leuven, Belgium, December 10, 2013
+- [DDD Paris Modellathon](http://www.meetup.com/DDD-Paris/events/142503812/) - October 29, 2013
+- [DDD Belgium Modellathon](http://domaindriven.be) in Ghent, Belgium, September 3, 2013
