@@ -10,6 +10,7 @@ image: "http://verraes.net/img/posts/2014-11-24-higher-order-programming/sandwic
 ---
 
 
+
 Let's have some fun with higher order programming in PHP. I'll start by showing how to program with Lambdalicious (or λlicious for friends) and introduce the real meat along the way. Don't worry too much about the dark magic that may appear to power some of the features of Lambdalicious. It's [on GitHub](https://github.com/mathiasverraes/lambdalicious) if you're curious. Just follow along and keep track of all the functions. 
 
 But first, something smaller:
@@ -134,6 +135,7 @@ return
 
 In other words, conditions are tried one after another until one of them evaluates to true. The value of the complete expression is the result that follows the first true condition. If none of the conditions evaluate to true, the finalResult is returned.
 
+<img style="float:left;margin-right: 10px" src="/img/posts/2014-11-24-higher-order-programming/recursive_percy_small.jpg" alt="Recursive Percy">
 
 ## Loops & List Processing
 
