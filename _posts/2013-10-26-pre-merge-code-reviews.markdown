@@ -138,3 +138,9 @@ As usual, I will keep adding to this post as I find more patterns. Got tips?
 Update: Apparently Phil Haack [blogged about code reviews](http://haacked.com/archive/2013/10/28/code-review-like-you-mean-it.aspx)
 almost at the exact same time. He has some great tips like keeping a checklist, focusing on the code and
 not the author, and stepping through the code. Worth reading!
+
+
+## Read next
+
+- [How Much Testing is Too Much?](/2014/12/how-much-testing-is-too-much/)
+- [Small Controlled Experiments](/2014/03/small-controlled-experiments/)
