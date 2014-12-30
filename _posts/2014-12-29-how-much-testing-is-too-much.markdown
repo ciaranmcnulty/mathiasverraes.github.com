@@ -42,3 +42,17 @@ After the experiment, you'll also end up with a bunch of low-value tests. Remove
 
 Coincidentally, I give the same advice when it comes to software design and modelling. There will always be bystanders, telling you that your solution is over-designed, especially if they don't have intimate knowledge of the problem domain or the non-functional requirements. They may be right, but they have no way of knowing that -- an neither do you. [Software design has a slow feedback cycle](/2014/10/software-design-is-just-theory/). Over-design just a little, get a feel for it, evaluate, and back down. That last bit is important: **if you don't refactor when gaining deeper insight, you're simply creating technical debt**. It's at the other end of the spectrum now, where the grass is slightly greener, but an over-designed model is technical debt nonetheless.  
   
+  
+(Update, Dec 30, 2014, based on a comment:)  
+
+## When to delete tests?
+ 
+Tests become a problem when:
+ 
+- they are slow;
+- they need to be changed all the time;
+- they break often;
+- they are hard to read;
+- ... or they bother you in some other way.
+ 
+When any of those occur, the tests need to be inspected. Now is the time to decide whether you want to refactor the test itself, or refactor the code under test, or, in some cases, remove the tests. Low-value tests are usually harmless. There's no urgent need to decide upfront whether they need to be deleted. Trust your instinct, or in this case, your annoyance level.
