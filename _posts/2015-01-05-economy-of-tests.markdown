@@ -50,33 +50,51 @@ Is it a new project, or an existing codebase? That is our final factor for looki
 
 Being able to introduce tests cheaply at any level, is great, but there’s a hidden risk. People new to automated testing, might be inclined to put too much focus on system and integration tests. As we discussed earlier, those levels are easier to learn, and, by consequence, more popular. Over time, system and integration tests become costlier: they are slower, harder to read, and they are brittle. These forces accumulate, leading to technical debt in the tests.  
 
-@todo table
+<style>
+td { 
+    border: 1px solid white; 
+}
+</style>
 
-
-
-Greenfield
-Brownfield
-
-
-Cost of introduction
-Cost of maintenance
-Cost of introduction
-Cost of maintenance
-System tests
-€
-€ € €
-€
-€ € €
-Integration tests
-€
-€ €
-€ €
-€ €
-Unit tests
-€
-€
-€ € €
-€
+<table cellpadding="5" cellspacing="5" style="width:100%; margin: 30px 5px">
+    <thead>
+    <tr>
+        <th>&nbsp;</th>
+        <th colspan="2">Greenfield</th>
+        <th colspan="2">Brownfield</th>
+    </tr>
+    <tr>
+        <th>&nbsp;</th>
+        <th>Introduction</th>
+        <th>Maintenance</th>
+        <th>Introduction</th>
+        <th>Maintenance</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th style="text-align: right;">System tests</th>
+        <td style="text-align: center; background-color: #d9ead3">€</td>
+        <td style="text-align: center; background-color: #f4cccc">€ € €</td>
+        <td style="text-align: center; background-color: #d9ead3">€</td>
+        <td style="text-align: center; background-color: #f4cccc">€ € €</td>
+    </tr>
+    <tr>
+        <th style="text-align: right;">Integration tests</th>
+        <td style="text-align: center; background-color: #d9ead3">€</td>
+        <td style="text-align: center; background-color: #fff2cc">€ €</td>
+        <td style="text-align: center; background-color: #fff2cc">€ €</td>
+        <td style="text-align: center; background-color: #fff2cc">€ €</td>
+    </tr>
+    <tr>
+        <th style="text-align: right;">Unit tests</th>
+        <td style="text-align: center; background-color: #d9ead3">€</td>
+        <td style="text-align: center; background-color: #d9ead3">€</td>
+        <td style="text-align: center; background-color: #d9ead3">€</td>
+        <td style="text-align: center; background-color: #f4cccc">€ € €</td>
+    </tr>
+    </tbody>
+</table>
 
 To counter the growing costs, Mike Cohn proposed the [Test Pyramid](http://www.amazon.com/gp/product/0321579364/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321579364&linkCode=as2&tag=verraesnet-20&linkId=BPE4YKYDY3WHOFAB). The idea is that the majority of your tests should be unit tests, with less focus on the higher levels. 
 
