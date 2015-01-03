@@ -7,8 +7,10 @@ published: true
 tags: [blog]
 abstract: "@TODO abstract"
 image: "http://verraes.net/img/posts/@TODO"
+author: "<a href=\"https://twitter.com/mathiasverraes\">@mathiasverraes</a> and <a href=\"https://twitter.com/everzet\">@everzet</a>" 
 ---
 
+*Joint post with [Konstantin Kudryashov](https://twitter.com/everzet).*
 
 # Economy of Tests
 
