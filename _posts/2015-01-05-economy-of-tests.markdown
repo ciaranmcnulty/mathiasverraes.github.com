@@ -80,12 +80,7 @@ Unit tests
 
 To counter the growing costs, Mike Cohn proposed the [Test Pyramid](http://www.amazon.com/gp/product/0321579364/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321579364&linkCode=as2&tag=verraesnet-20&linkId=BPE4YKYDY3WHOFAB). The idea is that the majority of your tests should be unit tests, with less focus on the higher levels. 
 
-
-@TODO img1
-
-
-
-
+<img style="float:right;margin-left: 10px" src="/img/posts/2015-01-05-economy-of-tests/test_pyramid-small.png" alt="Test Pyramid">
 
 In greenfield, advice like “write more unit tests” is easy to follow. Ignoring that advice creates the sort of technical debt we usually associate with brownfield projects. Those have a very different kind of test economy. Unit tests are very difficult in legacy code: unless you’re extremely lucky, the project is big ball of mud, with huge blocks of code and nothing even remotely resembling a unit that you can test in isolation. You’ll naturally resort to high level testing. That is often the only option.
 
@@ -102,12 +97,12 @@ Migrating tests can be done gradually. The first step is to drop your system tes
 
 Our process for introducing and evolving tests in a brownfield project looks like this:
 
-#. Identify the part of system you want to change.
-#. Estimate how expensive adding a unit tests is.
-#. If it’s expensive, move up one layer. Can you isolate the test to touch only a small number of components?
-#. If that’s still too expensive, you move up again and write a test against the entire system, using the GUI or an API as the boundary. 
-#. As the number of higher level tests grows and your technical debt starts showing, find ways to refactor the code base, and push tests to lower levels.
-#. Get rid of brittle, slow, and unreadable high level tests that test behaviours already covered by lower level tests.
+1. Identify the part of system you want to change.
+1. Estimate how expensive adding a unit tests is.
+1. If it’s expensive, move up one layer. Can you isolate the test to touch only a small number of components?
+1. If that’s still too expensive, you move up again and write a test against the entire system, using the GUI or an API as the boundary. 
+1. As the number of higher level tests grows and your technical debt starts showing, find ways to refactor the code base, and push tests to lower levels.
+1. Get rid of brittle, slow, and unreadable high level tests that test behaviours already covered by lower level tests.
 
 ## Opposing forces
 
@@ -116,8 +111,7 @@ Testing on brownfield projects always has two opposing forces:
 - Adding new test tends to push you to the higher levels of testing.
 - Carefully maintaining your test suite tends to push you to the lower levels of testing. 
 
-@TODO img2
-
+<img style="float:right;margin-left: 10px" src="/img/posts/2015-01-05-economy-of-tests/test_economy_forces-small.png" alt="Opposing forces in the economy of tests">
 
 This is the essence of the Test Pyramid: writing nothing but high level tests, is taking on technical debt. Sometimes this is necessary, but as soon as you have debt, the clock is ticking. Interest accumulates, and it becomes harder to remedy the situation. That’s why the process of test level migration is so crucial.
 
