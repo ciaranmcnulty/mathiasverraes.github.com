@@ -6,7 +6,7 @@ layout: post
 published: true
 tags: [blog]
 abstract: "Migrate test levels improve the long term sustainability of your test suite."
-image: "http://verraes.net/img/posts/@TODO"
+image: "http://verraes.net/img/posts/2015-01-05-economy-of-tests/Snow_Geese_Migration.jpg"
 author: "<a href=\"https://twitter.com/mathiasverraes\">@mathiasverraes</a> and <a href=\"https://twitter.com/everzet\">@everzet</a>" 
 ---
 
@@ -103,12 +103,14 @@ To counter the growing costs, Mike Cohn proposed the [Test Pyramid](http://www.a
 In greenfield, advice like “write more unit tests” is easy to follow. Ignoring that advice creates the sort of technical debt we usually associate with brownfield projects. Those have a very different kind of test economy. Unit tests are very difficult in legacy code: unless you’re extremely lucky, the project is big ball of mud, with huge blocks of code and nothing even remotely resembling a unit that you can test in isolation. You’ll naturally resort to high level testing. That is often the only option.
 
 
+
 ## Test Level Migration
 
 The Test Pyramid is a static model of an ideal end goal. In the real world, when dealing with legacy, we advise to **migrate tests from top to bottom**. 
 
 For brownfield, it’s perfectly fine to introduce tests at the level you are most comfortable with, and that suits the codebase at hand. But high level tests should be seen as a first step. An inverted pyramid is unbalanced, but you can use the system tests to **put pressure on the test suite**. We can call this **test level migration**: as the system tests give you more confidence to change things in your code base, you use this to add more low level tests. 
 
+<img style="float:right;margin-left: 10px" src="/img/posts/2015-01-05-economy-of-tests/Snow_Geese_Migration-small.jpg" alt="Snow geese migration">
 After a while, more behaviour is covered with low-level tests. Now you can remove the high level tests, especially those where the maintenance cost is greater than the value they provide.  ([Yes, it’s ok to delete tests.](http://verraes.net/2014/12/how-much-testing-is-too-much/)) The balance shifts to the base of the pyramid.
 
 Migrating tests can be done gradually. The first step is to drop your system tests to the level of the integration tests. Use the same integration points, such as databases, and other services. The tests still might break a lot, but at least they don’t break because of changes in the high level components such as the GUI or HTTP API. The next step would be to isolate integration points and cover the bulk of the system behaviour with actual unit tests.
