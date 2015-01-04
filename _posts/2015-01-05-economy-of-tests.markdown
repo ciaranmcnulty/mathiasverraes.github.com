@@ -5,7 +5,7 @@ date: 2015-01-05
 layout: post
 published: true
 tags: [blog]
-abstract: "Migrate test levels improve the long term sustainability of your test suite."
+abstract: "Migrate test levels to improve the long term sustainability of your test suite."
 image: "http://verraes.net/img/posts/2015-01-05-economy-of-tests/Snow_Geese_Migration.jpg"
 author: "<a href=\"https://twitter.com/mathiasverraes\">@mathiasverraes</a> and <a href=\"https://twitter.com/everzet\">@everzet</a>" 
 ---
