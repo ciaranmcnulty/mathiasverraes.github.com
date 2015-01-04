@@ -34,8 +34,8 @@ When discussing the cost of a method, we need to separate the cost of the learni
 
 A number of metrics affect the cost of a test. 
 
-- **Execution speed**: the faster a test runs, the shorter the feedback loop. You will run the test more often during development. The lifespan of a mistake is reduced. The failing tests notifies you of the mistake before you get a chance to move on to other tasks. The reasoning is still fresh in your head. Nothing else is built on top of the mistake. You can quickly fix it and move on. People with little experience in TDD usually underestimate the immense cumulative effect of this feedback loop. 
-- **Fragility**: the less stable your test is, the less you trust it. If your test breaks a lot, it’s harder to use as a meaningful measure of the system quality. Fragile tests often indicate a coupling problem. Either your test touches too many parts of the system, or the system under test itself is too coupled. For example, a small change in the GUI breaks a test in the domain model. Even worse is flickering: a test that breaks when you haven’t even made any change. This might happen because of things like race conditions or dependencies on services outside of your control.
+- **Execution speed**: the faster a test runs, the shorter the feedback loop. You will run the test more often during development. The lifespan of a mistake is reduced. The failing tests notifies you of the mistake before you get a chance to move on to other tasks. The reasoning is still fresh in your head. Nothing else is built on top of the mistake. You can quickly fix it and move on. People with little experience in TDD usually underestimate the **cumulative effect of this feedback loop**. 
+- **Fragility**: the less stable your test is, the less you trust it. If your test breaks a lot, it’s harder to use as a meaningful measure of the system quality. **Brittle tests often indicate a coupling problem**. Either your test touches too many parts of the system, or the system under test itself is too coupled. For example, a small change in the GUI breaks a test in the domain model. Even worse is *flickering*: a test that breaks, even when you haven’t made any changes. This might happen because of things like race conditions or dependencies on services outside of your control.
 - **Understandability**: writing code is usually easier than reading it. A clear test is the best documentation for the system you could have. Textual documentation tends to rot. Tests on the other hand are executable. When the system changes, the test breaks, and therefore the documentation breaks. However, a misleading or confusing test can actually derail the learning process of a developer. If the effort of reading the test is too great, it won’t be read, it won’t be maintained, and it won’t be used. 
 
 When do these metrics matter?
@@ -105,13 +105,13 @@ In greenfield, advice like “write more unit tests” is easy to follow. Ignori
 
 ## Test Level Migration
 
-The Test Pyramid is a static model of an ideal end goal. In the real world, when dealing with legacy, we advise to migrate tests from top to bottom. 
+The Test Pyramid is a static model of an ideal end goal. In the real world, when dealing with legacy, we advise to **migrate tests from top to bottom**. 
 
 For brownfield, it’s perfectly fine to introduce tests at the level you are most comfortable with, and that suits the codebase at hand. But high level tests should be seen as a first step. An inverted pyramid is unbalanced, but you can use the system tests to **put pressure on the test suite**. We can call this **test level migration**: as the system tests give you more confidence to change things in your code base, you use this to add more low level tests. 
 
 After a while, more behaviour is covered with low-level tests. Now you can remove the high level tests, especially those where the maintenance cost is greater than the value they provide.  ([Yes, it’s ok to delete tests.](http://verraes.net/2014/12/how-much-testing-is-too-much/)) The balance shifts to the base of the pyramid.
 
-Migrating tests can be done gradually. The first step is to drop your system tests to the level of the integration tests. Use the same integration points, such as databases, and other services. The tests still might break a lot, but at least they don’t break because of changes in the high level components such as the GUI or HTTP API. The next step would be to isolate integration points and cover bulk of the system behaviour with actual unit tests.
+Migrating tests can be done gradually. The first step is to drop your system tests to the level of the integration tests. Use the same integration points, such as databases, and other services. The tests still might break a lot, but at least they don’t break because of changes in the high level components such as the GUI or HTTP API. The next step would be to isolate integration points and cover the bulk of the system behaviour with actual unit tests.
 
 Our process for introducing and evolving tests in a brownfield project looks like this:
 
@@ -131,11 +131,11 @@ Testing on brownfield projects always has two opposing forces:
 
 <img style="float:right;margin-left: 10px" src="/img/posts/2015-01-05-economy-of-tests/test_economy_forces-small.png" alt="Opposing forces in the economy of tests">
 
-This is the essence of the Test Pyramid: writing nothing but high level tests, is taking on technical debt. Sometimes this is necessary, but as soon as you have debt, the clock is ticking. Interest accumulates, and it becomes harder to remedy the situation. That’s why the process of test level migration is so crucial.
+This is the essence of the Test Pyramid: when you write only high level tests, you take on technical debt. Sometimes this is necessary, but as soon as you have debt, the clock is ticking. Interest accumulates, and it becomes harder to remedy the situation. That’s why putting pressure on your test suite to migrate test levels, pays of in the long run.
 
 ## What to migrate
 
-The choice of tests to migrate, is important. You can use the metrics of execution speed, readability, and maintainability, to identify tests in dire need of migration. Another heuristic is asking whether the test is at its natural lowest possible level. For example, when a test is exercising the whole system in order to test a single unit of business logic, it is clear that this test is unnecessary costly, and should be migrated to the level of a unit test. Leave the system tests in place that verify if the system as a whole is working, and use unit tests to fix the most important mutations of the expected behavior.
+The choice of tests to migrate, is important. You can use the metrics of execution speed, readability, and maintainability, to identify tests in dire need of migration. Another heuristic is asking whether the test is at its natural lowest possible level. For example, when a test is exercising the whole system in order to test a single unit of business logic, it is clear that this test is unnecessary costly, and should be migrated to the level of a unit test. Leave the system tests in place that verify if the system as a whole is working, and use unit tests to fix the most important permutations of the expected behavior.
 
 ## Conclusion
 
