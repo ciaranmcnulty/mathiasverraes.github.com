@@ -5,14 +5,12 @@ date: 2015-01-05
 layout: post
 published: true
 tags: [blog]
-abstract: "@TODO abstract"
+abstract: "Migrate test levels improve the long term sustainability of your test suite."
 image: "http://verraes.net/img/posts/@TODO"
 author: "<a href=\"https://twitter.com/mathiasverraes\">@mathiasverraes</a> and <a href=\"https://twitter.com/everzet\">@everzet</a>" 
 ---
 
 *Joint post with [Konstantin Kudryashov](https://twitter.com/everzet).*
-
-# Economy of Tests
 
 A common complaint with teams that first try their hand at automated testing, is that it is hard, costly, and not worth the effort. On the other hand, supporters say that [it saves them time](https://twitter.com/mathiasverraes/status/234641929260908544). In this post, we’ll try to add some nuance to the discussion. We’ll take a look at how different levels of automated testing affect the cost of development, both in the short and the long term, for both greenfield and brownfield projects. Finally, we’ll look at a simple strategy for introducing tests and migrating them across test levels, in order to reduce maintenance costs.
 
@@ -92,8 +90,8 @@ td {
         <th style="text-align: right;">Unit tests</th>
         <td style="text-align: center; background-color: #d9ead3">€</td>
         <td style="text-align: center; background-color: #d9ead3">€</td>
-        <td style="text-align: center; background-color: #d9ead3">€</td>
         <td style="text-align: center; background-color: #f4cccc">€ € €</td>
+        <td style="text-align: center; background-color: #d9ead3">€</td>
     </tr>
     </tbody>
 </table>
