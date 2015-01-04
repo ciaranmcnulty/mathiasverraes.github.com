@@ -1,65 +1,128 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-
-    <!-- www.phpied.com/conditional-comments-block-downloads/ -->
-    <!--[if IE]><![endif]-->
-
-    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame  -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Mathias Verraes</title>
-    <meta name="description" content="Independent Enterprise Web Application Consultant">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
     <meta name="author" content="Mathias Verraes">
-    <link rel="alternate" type="application/atom+xml" title="Blog" href="/feed.atom"/>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link href="/css/stylev2.css" rel="stylesheet" type="text/css"/>
-    <link href="/css/base.css" rel="stylesheet" type="text/css"/>
-    <link href="/css/syntax.css" rel="stylesheet" type="text/css"/>
-    <link href="/css/hint.min.css" rel="stylesheet" type="text/css"/>
-    <script src="/js/modernizr-1.5.min.js"></script>
+    <link rel="icon" href="favicon.ico">
+    <title>404</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        a, a:focus, a:hover {
+            color: #fff;
+        }
 
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-2620608-6']);
-        _gaq.push(['_trackPageview']);
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
+        html,
+        body {
+            height: 100%;
+            background-color: #333;
+        }
 
-    </script>
+        body {
+            color: #fff;
+            text-align: center;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+        }
+
+        .site-wrapper {
+            display: table;
+            width: 100%;
+            height: 100%; /* For at least Firefox */
+            min-height: 100%;
+            -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+            box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+        }
+
+        .site-wrapper-inner {
+            display: table-cell;
+            vertical-align: top;
+        }
+
+        .cover-container {
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        /* Padding for spacing */
+        .inner {
+            padding: 30px;
+        }
+
+        @media (min-width: 768px) {
+            .masthead-brand {
+                float: left;
+            }
+
+            .masthead-nav {
+                float: right;
+            }
+        }
+
+        .cover {
+            padding: 0 20px;
+        }
+
+        .cover .btn-lg {
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+
+        @media (min-width: 768px) {
+            /* Pull out the header and footer */
+            .masthead {
+                position: fixed;
+                top: 0;
+            }
+
+            .mastfoot {
+                position: fixed;
+                bottom: 0;
+            }
+
+            /* Start the vertical centering */
+            .site-wrapper-inner {
+                vertical-align: middle;
+            }
+
+            /* Handle the widths */
+            .masthead,
+            .mastfoot,
+            .cover-container {
+                width: 100%; /* Must be percentage or pixels for horizontal alignment */
+            }
+        }
+
+        @media (min-width: 992px) {
+            .masthead,
+            .mastfoot,
+            .cover-container {
+                width: 700px;
+            }
+        }</style>
 </head>
 
-<!--[if IE 7 ]>
-<body class="ie7"> <![endif]-->
-<!--[if IE 8 ]>
-<body class="ie8"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
 <body>
-<!--<![endif]-->
-
-<div id="wrapper">
-
-    <section id="home">
-
-
-        <h2 style="border:none">
-            <span class="red">404 Nothing here</span>
-            <br>
-            Try <a href="http://verraes.net">verraes.net</a> instead.
-            <br>
-            Good luck!
-        </h2>
-
-
-    </section>
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+            <div class="inner cover">
+                <div class="media">
+                    <a class="media-left" href="http://verraes.net">
+                        <img src="/img/cat404.jpg" alt="404">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Is this the page you're looking for?</h4>
+                        <p>404. Just say no.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
 </body>
 </html>
+
+
+
