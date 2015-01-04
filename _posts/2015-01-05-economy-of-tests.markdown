@@ -14,19 +14,19 @@ author: "<a href=\"https://twitter.com/mathiasverraes\">@mathiasverraes</a> and 
 
 A common complaint with teams that first try their hand at automated testing, is that it is hard, costly, and not worth the effort. On the other hand, supporters say that [it saves them time](https://twitter.com/mathiasverraes/status/234641929260908544). In this post, we’ll try to add some nuance to the discussion. We’ll take a look at how different levels of automated testing affect the cost of development, both in the short and the long term, for both greenfield and brownfield projects. Finally, we’ll look at a simple strategy for introducing tests and migrating them across test levels, in order to reduce maintenance costs.
 
-## Definitions
+## Definitions of Test Levels
 
 Coming up with universal definitions of types of tests, is hard. There are many styles, and different authors choose different categorizations. **For the scope of this post**, we will simplify to three levels.
 
-- A **unit test** tests a single behavior of a single unit -- this can be a function, a method, or a class, but it can be something other as well. A logical unit is something that can be **reasoned about in isolation**. The unit in unit test must be **completely under your control**. The test should limit the number of other units it touches on, and should not touch any part outside of our own system. As such, the test should **only fail for one reason**.
+- A **unit test** verifies a single behavior of a single unit -- this can be a function, a method, or a class, but it can be something other as well. A logical unit is something that can be **reasoned about in isolation**. The unit must be **completely under your control**. The test should limit the number of other units it touches on, and should not touch any part outside of your own system. As such, the test should **only fail for one reason**.
 - **Integration testing** means we’re verifying that that different units are working together. It focuses on the **interfaces between components**. Some of these components may be from third parties. When they break, they signal that, although individual units may behave correctly, something changed in the API that caused failure in another place. Often, integration tests are slower than unit tests. 
-- **System testing** uses an **production-like environment** to verify the system as a whole. This may include user interfaces, databases, web servers, logging, etc. Typically a call is made at the **outside boundary of the system**. Ideally, the outcome is verified at the same boundary. 
+- **System testing** uses a **production-like environment** to verify the system as a whole. This may include user interfaces, databases, web servers, logging, etc. Typically a call is made at the **outside boundary of the system**. Ideally, the outcome is verified at the same boundary. 
 
 
 
 ## Learning 
 
-System and integration tests do not require you to adapt your system’s design in order to be testable. The difficulty with good unit tests, is that they require good software design. Because of this, unit tests are more costly than system and integration tests. To learn system testing, all you need to learn is the tools and the process. To learn unit testing, you need to learn design at the same time. 
+System and integration tests do not require you to adapt your system’s design in order to be testable. The difficulty with good unit tests, is that they require good software design to be useful. Because of this, unit tests are more costly than system and integration tests. To learn system testing, all you need to learn is the tools and the process. To learn unit testing, you need to learn design at the same time. This frustrates developers who are new to unit testing. The method appears not to work for them, because they're trying to learn unit testing without learning better design.
 
 When discussing the cost of a method, we need to separate the cost of the learning from the cost of actually applying the method. Once you’ve learned something, you can transfer this knowledge and reuse it. 
 
