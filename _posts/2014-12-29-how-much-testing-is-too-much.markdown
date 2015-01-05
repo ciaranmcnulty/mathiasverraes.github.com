@@ -56,3 +56,8 @@ Tests become a problem when:
 - ... or they bother you in some other way.
  
 When any of those occur, the tests need to be inspected. Now is the time to decide whether you want to refactor the test itself, or refactor the code under test, or, in some cases, remove the tests. Low-value tests are usually harmless. There's no urgent need to decide upfront whether they need to be deleted. Trust your instinct, or in this case, your annoyance level.
+
+## Read more
+
+- [Economy of Tests](/2015/01/economy-of-tests/)
+

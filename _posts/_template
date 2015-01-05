@@ -7,6 +7,7 @@ published: true
 tags: [blog, workshop, talk @TODO]
 abstract: "@TODO abstract"
 image: "http://verraes.net/img/posts/@TODO"
+author: @TODO optional
 ---
 
 @TODO CONTENT HERE
