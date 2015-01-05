@@ -143,7 +143,9 @@ The choice of tests to migrate, is important. You can use the metrics of executi
 
 For projects with a long life expectancy, investing in your test suite is well worth it. Proper automated testing is a careful balance. Quickly introduce tests when you need them, and build a comprehensive, fast, and reliable test suite in the long run. We hope this post can give you some ammunition to win your team to this idea. 
 
+## Read more
 
+- [How Much Testing is Too Much?](/2014/12/how-much-testing-is-too-much/)
 
 
 
