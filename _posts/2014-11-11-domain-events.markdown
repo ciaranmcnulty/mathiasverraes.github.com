@@ -79,6 +79,7 @@ The different systems producing and consuming Events can each have their own rep
 
 ## Read more
 
+- [Messaging Flavours](/2015/01/messaging-flavours/)
 - [Event Storming: Fake Domains and Happy Paths](/2014/07/event-storming-fake-domains-happy-paths/)
 - [A Functional Foundation for CQRS/Event Sourcing](/2014/05/functional-foundation-for-cqrs-event-sourcing/)
 - [Buzzword-free Bounded Contexts](/2014/02/buzzword-free-bounded-contexts/)
