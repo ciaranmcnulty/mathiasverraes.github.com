@@ -10,19 +10,6 @@ image: "https://speakerd.s3.amazonaws.com/presentations/5d64816065aa0131a8e94ae3
 ---
 
 
-#### Future
-
-- Your company or event? [Contact me](http://verraes.net/#contact)
-
-#### Past
-
-- [Devnology](http://devnology.nl/), somewhere in the Netherlands (tba), June 4, 2014
-- [PHP Benelux](http://conference.phpbenelux.eu/2014/sessions/#model-storming-workshop) in Antwerp, Belgium, January 24, 2014
-    - [Joind.in reviews](https://joind.in/talk/view/10281)
-    - Review by [Carl Vuorinen](http://cvuorinen.net/2014/01/cqrs-or-did-you-mean-bumper-cars-my-phpbenelux-2014-experience/)
-- Dry-run at [Marlon](http://marlon.be) in Ghent, Belgium, January 19, 2014
-
-
 <script async class="speakerdeck-embed" data-id="5d64816065aa0131a8e94ae38a915c91" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 [See the slides on Speakerdeck](https://speakerdeck.com/mathiasverraes/model-storming-workshop)
 
