@@ -5,8 +5,8 @@ date: 2015-01-09
 layout: post
 published: true
 tags: [blog]
-abstract: "Differentiating between informational, interrogatory, and imperative messages."
-image: "http://verraes.net/img/posts/@TODO"
+abstract: "Differentiating between informational, interrogatory, and imperative messages, and keeping them nicely separated."
+image: "http://verraes.net/img/posts/2015-01-09-messaging-flavours/icecream.jpg"
 ---
 
 
@@ -52,6 +52,8 @@ LuckyPupilsWhoDontNeedTheirParentsToSignTheirReportsAnymore {
 This is what is meant by **Intention Revealing Interfaces** in the [blue book](http://www.amazon.com/gp/product/0321125215/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321125215&linkCode=as2&tag=verraesnet-20&linkId=JK4IHA2DQIYZB5ZR). The name `LuckyPupilsWhoDontNeedTheirParentsToSignTheirReportsAnymore` is obviously exaggerated to make a point. You'll have to admit that at least now, you've learned something about the domain that was tricky to infer from the previous examples.
 
 ## Informational Messages
+
+<img style="float:right;margin-left: 10px" src="/img/posts/2015-01-09-messaging-flavours/icecream-small.jpg" alt="Ice Cream Flavours">
 
 Informational messages are sent by a system that wants to **communicate something about itself** to the outside world. It does this not to achieve a goal (as with imperative messages) or to learn about another system’s state (interrogatory). It provides this service for the benefit of other systems. It’s the altruistic pattern of the distributed world! (It does however have some sort of contract with it’s receivers.) It can notify an interested party directly, or through publish/subscribe (the subscribers are not hardcoded, creating better decoupling), or through broadcasting (“This is my message and I don’t care who hears it!”). 
 
