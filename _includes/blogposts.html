@@ -1,13 +1,12 @@
-<p><a href="/feed.atom" title="Blog Atom feed">
-    <img src="/img/social/rss.png" height="32" width="32" alt="Atom"/>
-    Blog feed
-</a>
-</p>
+<!-- http://stackoverflow.com/a/20777475/432982 -->
 
-<ul class="list-unstyled">
-    {% for post in site.tags.blog %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-</ul>
+{% for post in site.tags.blog %}
+    {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+    {% if currentyear != year %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <p>{{ currentyear }}</p>
+    <ul class="list-unstyled">
+        {% capture year %}{{currentyear}}{% endcapture %}
+        {% endif %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}

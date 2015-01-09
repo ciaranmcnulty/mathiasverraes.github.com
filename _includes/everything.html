@@ -3,7 +3,11 @@
 
         <a id="blog"></a>
 
-        <h2>Blog</h2>
+        <h2>Blog
+            <a href="/feed.atom" title="Blog Atom feed">
+                <img src="/img/social/rss.png" height="32" width="32" alt="Atom"/>
+            </a>
+        </h2>
         {% include blogposts.html %}
     </div>
 
@@ -25,3 +29,5 @@
 
     </div>
 </div>
+
+{% include agenda.html %}
