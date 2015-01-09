@@ -87,7 +87,9 @@ I wrote that user intention can not be represented as a pure function, but of co
 
 ## Read More
 
+- [Domain Events](/2014/11/domain-events/)
 - If you like the circular representation of CQRS, I have a lot more of them in my slides for [Fighting Bottlenecks with CQRS](/2013/12/fighting-bottlenecks-with-cqrs/)
 - [Domain-Driven Design is Linguistic](/2014/01/domain-driven-design-is-linguistic/)
+- [Messaging Flavours](/2015/01/messaging-flavours/)
 
 

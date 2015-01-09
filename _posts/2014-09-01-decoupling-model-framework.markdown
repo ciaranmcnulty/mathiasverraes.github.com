@@ -26,4 +26,5 @@ The talk that I mention is <a href="https://www.youtube.com/watch?v=0L_9NutiJlc"
 
 - [CRUD is an anti-pattern](/2013/04/crud-is-an-anti-pattern/)
 - [Decoupling (Symfony2) Forms from Entities](/2013/04/decoupling-symfony2-forms-from-entities/)
-
+- [Domain Events](/2014/11/domain-events/)
+- [Messaging Flavours](/2014/11/domain-events/)
