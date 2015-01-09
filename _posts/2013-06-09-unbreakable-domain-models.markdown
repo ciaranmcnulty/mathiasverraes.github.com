@@ -31,31 +31,6 @@ These patterns help us evolve from structural data models, to rich behavioral mo
 
 The presentation is a fast paced introduction to some patterns and ideas that will make your Domain Model expressive, unbreakable, and beautiful.
 
-### Events
-
-
-#### Future
-
-- Your company or event? [Contact me](http://verraes.net/#contact)
-
-#### Past
-
-- [Confoo](http://confoo.ca/en/2014/session/unbreakable-domain-models) in Montreal, Canada, February 24-28, 2014
-  - [Feedback collected by the organizers](/img/posts/2013-06-09-unbreakable-domain-models/UnbreakableDomainModels-Confoo14-feedback.pdf)
-- PHPUK in London, UK, Februari 21-22, 2014
-  - Reviews on [joind.in](http://joind.in/talk/view/10690)
-- [PHPNW](http://conference.phpnw.org.uk/phpnw13/schedule/mathias-verraes/) in Manchester, UK, October 4-5, 2013
-  - Review by [Jerome Gill](http://www.boxuk.com/php-north-west-2013)
-  - Review by [Martin Bean](http://martinbean.co.uk/blog/2013/10/09/php-north-west-2013-conference/)
-  - Reviews on [joind.in](https://joind.in/9312)
-- [FrOSCon](http://programm.froscon.org/2013/events/1243.html) in Sankt-Augustin, Germany, August 24-25, 2013
-  - Reviews on [joind.in](http://joind.in/talk/view/9020)
-- [Dutch PHP Conference](http://www.phpconference.nl/talks#mathias-verraes-unbreakable-domain-models) in Amsterdam, Netherlands, June 6-8, 2013
-  - Review by [Rowan Merewood](http://techportal.inviqa.com/2013/06/12/dpc13/)
-  - Review by [Richard Tuin](http://www.enrise.com/2013/06/a-review-of-the-dutch-php-conference-2013/)
-  - Review by [Ray Burgemeestre](http://blog.cppse.nl/dutch-php-conference-2013)
-  - Reviews on [joind.in](http://joind.in/talk/view/8438)
-- [Dataflow Community Evening](http://www.dataflow.be/nl/eerste-community-gent) in Ghent, Belgium, May 8, 2013
 
 ## Learn More
 Check out [Elephant in the Room #002: The Heart and Soul of OOP](http://elephantintheroom.io/blog/2013/10/episode-2-heart-and-soul-of-oop/) for more info about Value Objects.
