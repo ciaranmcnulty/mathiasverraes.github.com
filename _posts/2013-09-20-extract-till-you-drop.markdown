@@ -25,18 +25,6 @@ to me, it looks just about right. So, my advice: Extract till you just can’t e
 
 I owe a lot to Sandro Mancuso, who did a similar, much more advanced presentation in Java, which greatly inspired me to try this in PHP. Many of the ideas here are borrowed from him.
 
-### Events
-
-- [Symfony Live](http://london2013.live.symfony.com/speakers.html#mathias) in London, UK, September 19-20, 2013
-  - The Tokyo Symfony user group turned my video into [a mini workshop](http://phpmentors.jp/post/63422732564/symfony-meetup-tokyo)
-  - Mentioned by [Carol Carini](http://www.infinity-tracking.com/blog/2013/09/infinity-at-symfony-live-london-2013/)
-  - Reviews on [joind.in](https://joind.in/talk/view/9334)
-- [PHP Benelux](http://conference.phpbenelux.eu/2014/) in Antwerp, Belgium, January 24-25, 2014
-  - Reviews on [joind.in](http://joind.in/talk/view/10271)
-- [Confoo](http://confoo.ca/en/2014/session/extract-till-you-drop) in Montreal, Canada, February 24-28, 2014
-   - [Feedback collected by the organizers](/img/posts/2013-09-20-extract-till-you-drop/ExtractTillYouDrop-Confoo14-feedback.pdf)
-- [PHP Tour Lyon](http://afup.org/pages/phptourlyon2014/) in Lyon, France, June 23-24, 2014
-
 
 ### Abstract
 
