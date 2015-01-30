@@ -12,6 +12,7 @@ image: "http://verraes.net/img/posts/2014-11-20-modelling-heuristics/blackhole.j
 The slides for my talk at Build Stuff in Vilnius. (As often, the slides are not very interesting without the text.)
 
 <script async class="speakerdeck-embed" data-id="047406a05332013247257e07207ad8af" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<a href="https://speakerdeck.com/mathiasverraes/modelling-heuristics"><small>See the slides on Speakerdeck</small></a> 
 
 ## Abstract
 
