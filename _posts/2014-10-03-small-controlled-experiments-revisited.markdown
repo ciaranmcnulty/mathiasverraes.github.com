@@ -20,6 +20,11 @@ The project was of to a bad start: an inherited legacy codebase, a waterfall con
 
 Continuous Improvement implies that you know exactly where to focus your efforts. Like scientists, we started to experiment, without deciding upfront what we expected the outcome to be. The rules? Make every experiment as small as possible. No meetings, no consensus, no cumbersome evaluation process. We let the results speak for themselves. This talk explores the successes and failures of a team that went from survival mode to learning mode over the course of a year.
 
+[Peter Decuyper](https://twitter.com/sgrame) drew this while I gave the talk at PHPBenelux 2015:
+
+<img src="/img/posts/2014-10-03-small-controlled-experiments-revisited/sketchnotes_by_@sgrame-small.jpg" alt="Small Uncontrolled Experiments, drawn by @sgrame">
+
+
 ## Read more
 
 [The original blog post on Small Controlled Experiments](/2014/03/small-controlled-experiments/)

@@ -13,6 +13,8 @@ image: "http://verraes.net/img/posts/2014-11-24-higher-order-programming/sandwic
 
 Let's have some fun with higher order programming in PHP. I'll start by showing how to program with Lambdalicious (or λlicious for friends) and introduce the real meat along the way. Don't worry too much about the dark magic that may appear to power some of the features of Lambdalicious. It's [on GitHub](https://github.com/mathiasverraes/lambdalicious) if you're curious. Just follow along and keep track of all the functions. 
 
+**Note:** The code in this blogpost works with [Lambdalicious v0.1.0](https://github.com/mathiasverraes/lambdalicious/tree/v0.1.0). If you want to adapt this blog post to the current version, please send a [pull request](https://github.com/mathiasverraes/mathiasverraes.github.com/edit/master/_posts/2014-11-24-higher-order-programming.markdown).
+
 But first, something smaller:
 
 ## Atoms
