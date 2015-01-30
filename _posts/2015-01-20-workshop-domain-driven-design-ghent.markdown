@@ -5,7 +5,7 @@ date: 2015-01-20
 layout: post
 published: true
 tags: [blog, workshop]
-abstract: "Three day intensive workshop for developers, August 24-26 2015, in the beautiful city of Ghent, Belgium."
+abstract: "Three day intensive workshop for developers, August 12-14 2015, in the beautiful city of Ghent, Belgium."
 image: "http://verraes.net/img/posts/2014-06-18-workshop-expddd/modelstorming.jpg"
 ---
 
@@ -64,7 +64,7 @@ You are a Software Developer with some years of experience in working with compl
 - Full price course fee: EUR 1295,- ex VAT for 3 days
 - Early bird course fee: EUR 995,- ex VAT for 3 days (until May 31, 2015)
 - Includes lunch, snacks, and drinks.
-- August 24-26, 2015, 9:30-17:30
+- August 12-14, 2015, 9:30-17:30
 - Language: English
 - Venue: [Zebrastraat conference center](http://www.zebrastraat.be/), Ghent, Belgium
 - <a href="/workshops/terms-and-conditions/">Terms and Conditions</a>
