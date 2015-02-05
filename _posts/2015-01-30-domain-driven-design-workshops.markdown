@@ -4,7 +4,7 @@ slug: domain-driven-design-workshops
 date: 2015-01-30
 layout: post
 published: true
-tags: [blog, workshop]
+tags: []
 abstract: "Three day intensive DDD workshops for experienced developers in the UK, Germany, and Belgium."
 image: "http://verraes.net/img/posts/2014-06-18-workshop-expddd/modelstorming.jpg"
 ---
