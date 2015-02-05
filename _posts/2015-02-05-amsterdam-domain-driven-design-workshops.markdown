@@ -32,6 +32,6 @@ Learn all about:
 
 [Find all the info and registrations on the workshop page](/workshops/). 
 
-More workshops will be announced soon. [Register for the newsletter to receive notifications](http://eepurl.com/1IAmf).
+More workshops will be announced soon. [Register for the newsletter to receive notifications](/workshops/newsletter/).
 
 
