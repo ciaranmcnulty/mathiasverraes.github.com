@@ -1,5 +1,5 @@
 markdown: kramdown
-pygments: true
+highlighter: pygments
 permalink: /:year/:month/:title/
 url: http://verraes.net
 title: "Mathias Verraes' Blog"
