@@ -98,4 +98,4 @@ Given this categorisation, it follows from the Single Responsibility Principle t
 ## Read More
 
 - [Domain Events](/2014/11/domain-events/)
-- [Form, Command, and Model Validation](/2015/02/form-command-model-validation/
+- [Form, Command, and Model Validation](/2015/02/form-command-model-validation/)
