@@ -165,7 +165,7 @@ A better solution is to move that particular code into a CommandHandler. Maybe s
 
 ## Read more
 
-- [Form, Command, and Model Validation](/2015/02/form-command-model-validation/
+- [Form, Command, and Model Validation](/2015/02/form-command-model-validation/)
 - [When to Use Static Methods](http://verraes.net/2014/06/when-to-use-static-methods-in-php/)
 
 ## Comments
