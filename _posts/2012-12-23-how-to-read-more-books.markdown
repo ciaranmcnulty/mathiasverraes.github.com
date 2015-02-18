@@ -153,7 +153,7 @@ From [The Pleasures of Reading in an Age of Distraction](http://www.farnamstreet
 
 ## Riffle the pages
 
-I don't know how many books Gerald M. Weinberg has *read*, but he has *written* over 40 books. From "Weinberg on Writing", I'm quoting a tip on reading nonfiction:
+I don't know how much Gerald M. Weinberg *reads*, but he has *written* over 50 books. From "Weinberg on Writing", I'm quoting a tip on reading nonfiction:
 
 <blockquote>"My own way (...) is to riffle the pages, scanning from back to front for something interesting that catches my eye, usually a picture or diagram of some sort. I start reading from there and continue until I lose interest. The I riffle again and repeat the process." </blockquote>
 
