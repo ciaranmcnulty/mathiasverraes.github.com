@@ -30,23 +30,14 @@ but only watch things that you consciously choose to watch.
 
 - Don't watch live television. Most programs last either 22 or 44 minutes, but that's 30 or 60 minutes with commercials. Watch recorded tv instead.
 - Don't zap. The ultimate time sink hole.
-- Don't watch the news. It's always the same. The little information you can get from a 22 minute news program, can be read online in 5 minutes.
+- Don't watch the news. It's always the same. The little information you can get from a 22 minute news program, can be read online in 5 minutes. [Giving up news will make you happier](http://www.guardian.co.uk/media/2013/apr/12/news-is-bad-rolf-dobelli).
 
-(Update April 26, 2013:)
-According to this [this article](http://www.guardian.co.uk/media/2013/apr/12/news-is-bad-rolf-dobelli), news is not just a
-waste of time, it is in fact really bad for you. Giving up reading news will make you happier.
-
-Which brings me to:
 
 ### Stop reading newspapers
 
-Newspapers and magazines over here compete by getting fatter year after year, with declining quality as the result. Everything you read
-will be outdated tomorrow anyway. And let's be honest: first you read the funnies, then the headers, then some celebrity
-news. Do you really need a newspaper anymore?
+Newspapers and magazines compete by getting fatter year after year, with declining quality as the result. Everything you read will be outdated tomorrow anyway. And let's be honest: first you read the funnies, then the headers, then some celebrity news. Do you really need a newspaper anymore?
 
-More generally, Gerald M. Weinberg wrote:
-
-<blockquote>Never read anything that isn't worth reading.</blockquote>
+<blockquote>"Never read anything that isn't worth reading." — Gerald M. Weinberg</blockquote>
 
 ### Get an e-reader
 
@@ -158,6 +149,20 @@ Although I'm sure some are valuable, don't read books written *about* interestin
 From [The Pleasures of Reading in an Age of Distraction](http://www.farnamstreetblog.com/2013/01/the-pleasures-of-reading-in-an-age-of-distraction/): 
 <blockquote>"Read what gives you delight — at least most of the time — and do so without shame. And even if you are that rare sort of person who is delighted chiefly by what some people call Great Books, don’t make them your steady intellectual diet, any more than you would eat at the most elegant of restaurants every day."</blockquote>
 
+(Update Feb 10, 2015:)
+
+## Riffle the pages
+
+I don't know how many books Gerald M. Weinberg has *read*, but he has *written* over 40 books. From "Weinberg on Writing", I'm quoting a tip on reading nonfiction:
+
+<blockquote>"My own way (...) is to riffle the pages, scanning from back to front for something interesting that catches my eye, usually a picture or diagram of some sort. I start reading from there and continue until I lose interest. The I riffle again and repeat the process." </blockquote>
+
+
+## Stop means stop
+
+Also from "Weinberg on Writing", similar to Taleb's advice:
+
+<blockquote>"If you decide that it's not worth finishing, do you stop, or do you drag yourself through it? If you stop, do you *really* stop, or do you leave the book partly finished, as a nagging chore in the back of your mind?"</blockquote> 
 
 
 
