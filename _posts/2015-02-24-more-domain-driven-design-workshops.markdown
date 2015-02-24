@@ -1,17 +1,21 @@
 ---
 title: "Domain-Driven Design training in Amsterdam, London, Ghent, Berlin"
 slug: amsterdam-domain-driven-design-workshops
-date: 2015-02-05
+date: 2015-02-24
 layout: post
 published: true
-tags: []
-abstract: "Three day intensive DDD workshops for experienced developers in the UK, the Netherlands, Germany, and Belgium."
+tags: [blog, workshop]
+abstract: "One day and three day intensive DDD workshops in the UK, the Netherlands, Germany, and Belgium."
 image: "http://verraes.net/img/posts/2014-06-18-workshop-expddd/modelstorming.jpg"
 ---
 
-**Update: Added Amsterdam**
+Laracon EU just announced a one day workshop on Domain-Driven Design in PHP: 
 
-I'm happy to announce more Domain-Driven Design workshops!
+- [Amsterdam, Netherlands, August 24, 2015](http://laracon.eu/2015/)
+
+I'll give an introduction to basic Domain-Driven Design theory, and compliment it with a practical approach. You’ll learn how to discover and evolve your domain model, and how design patterns can help you translate it to code.
+
+Coming up this year are also these three-day workshops on Domain-Driven Design and Event Storming (language agnostic): 
 
 - [London, UK, April 22-24, 2015](https://www.eventbrite.co.uk/e/experiencing-domain-driven-design-workshop-with-mathias-verraes-tickets-15531735840)
 - [Amsterdam (Breukelen), Netherlands, June 29 - July 1, 2015](https://www.zilverline.com/training/experiencing-domain-driven-design-2015-06-29)
@@ -30,8 +34,7 @@ Learn all about:
 - Modelling exercises
 - ...
 
-[Find all the info and registrations on the workshop page](/workshops/). 
-
-More workshops will be announced soon. [Register for the newsletter to receive notifications](/workshops/newsletter/).
-
+- [Find all the info and registrations on the workshop page](/workshops/). 
+- [Register for the newsletter to receive notifications](/workshops/newsletter/).
+- [Contact me](/#contact) for information about private workshops or consultancy at your organization.
 
