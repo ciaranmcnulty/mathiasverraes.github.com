@@ -16,7 +16,7 @@ Last week, my client's Chief Product Owner announced to the team they would intr
 
 I was of course sceptical at first, but it turned out to be quite interesting in it's own right, as a presentation technique. The Chief PO and his team were well prepared. They had researched the regulations they had to comply with to enter a new market, and third party services they'd need to integrate with. They had done Event Storming (or something similar) amongst themselves, cleaned up the resulting artifact, and ordered and collected the stickies. During the short session with the development team, the Chief PO told the story, while the assistants supported it by adding stickies to wall as the story evolved. It was not a linear story. You could easily understand were a new branch in the story began, because the PO's attached new stickies at that location. 
 
-Surely, for the developers, it didn't create the collaborative deep learning experience that Event Storming usually does. They were only spectators. But this style of viaully supported presentation, was definitely much better than some of the alternatives, like purely oral storytelling, or a written set of requirements.  
+Surely, for the developers, it didn't create the collaborative deep learning experience that Event Storming usually does. They were only spectators. But this style of visually supported presentation, was definitely much better than some of the alternatives, like purely oral storytelling, or a written set of requirements.  
 
 <img src="/img/posts/2015-03-14-event-storming-storytelling-visualisations/storytelling.jpg" alt="Storytelling">
 
