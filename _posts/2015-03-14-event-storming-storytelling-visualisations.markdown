@@ -37,4 +37,13 @@ Describing the experience of reaching a breakthrough, is hard. Good models are a
 
 For our first model, we focused too much on the design we thought we wanted: Reusable Specification and Policy objects, Adapters and Strategies, with the intent of injecting the behaviour for the different markets into the process. The next morning, while attempting a PoC implementation, we realized we had painted ourselves into a corner. Event Storming to the rescue. Based on nothing but a gut feeling, I proposed we started with Commands instead of Events though. Then we evolved that in to some sort of matrix, with one swim lane per Market x Medium combo. Finally it hit us that the implementation shouldn't start from a single accreditation process where we injected strategies. Our visual model suggested that we needed multiple processes, implemented independently, and only share elements between those processes if it absolutely made sense. I don't have a good picture of the resulting model, but it wouldn't have made sense anyway. As with all brainstorming, you had to be there.
  
-I don't believe we would have come to this conclusion so fast in any other way. As developers, we are so often blinded by the way the requirements are described, and our own propensity to design according to preconceived notions of what a good design must look like. Find the elements that complicate a problem, find a visualisation, put it front and center, and brainstorm from there. Without visualisation, you spend too much energy synchronizing each other's mental models, usually unsuccessfully.  
+I don't believe we would have come to this conclusion so fast in any other way. As developers, we are so often blinded by the way the requirements are described, and our own propensity to design according to preconceived notions of what a good design must look like. Find the elements that complicate a problem, find a visualisation, put it front and center, and brainstorm from there. Without visualisation, you spend too much energy synchronizing each other's mental models, usually unsuccessfully. 
+
+
+## Read More
+
+- [Domain Events](/2014/11/domain-events/)
+- [Notes on facilitating Event Storming sessions](/2013/08/facilitating-event-storming/)
+- [Posts tagged with Event Storming on Alberto Brandolini's blog](http://ziobrando.blogspot.be/search/label/EventStorming)
+- [Tim Schraepen’s Event Storming experience report](http://sch3lp.github.io/2014/07/12/event-storming-exercise/)
+- [Messaging Flavours](/2015/01/messaging-flavours/)
