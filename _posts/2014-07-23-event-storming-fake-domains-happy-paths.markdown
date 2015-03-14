@@ -71,6 +71,7 @@ Model Storming is closer to the idea of brain storming: anything can happen, and
 
 - [Domain Events](/2014/11/domain-events/)
 - [Notes on facilitating Event Storming sessions](/2013/08/facilitating-event-storming/)
+- [Event Storming, Storytelling, Visualisations](/2015/03/event-storming-storytelling-visualisations/)
 - [Posts tagged with Event Storming on Alberto Brandolini's blog](http://ziobrando.blogspot.be/search/label/EventStorming)
 - [Tim Schraepen’s Event Storming experience report](http://sch3lp.github.io/2014/07/12/event-storming-exercise/)
 - [Messaging Flavours](/2015/01/messaging-flavours/)

@@ -55,7 +55,8 @@ Facilitator tips:
 
 ## Read More
 
-- [Event Storming: on Fake Domains and Happy Paths](http://verraes.net/2014/07/event-storming-fake-domains-happy-paths/)
+- [Event Storming: on Fake Domains and Happy Paths](/2014/07/event-storming-fake-domains-happy-paths/)
+- [Event Storming, Storytelling, Visualisations](/2015/03/event-storming-storytelling-visualisations/)
 - [Domain-Driven Design is Linguistic](/2014/01/domain-driven-design-is-linguistic/)
 - [The DDDBE Modellathon](/2013/09/dddbe-modellathon/)
 - [Model Storming Workshop](/2014/01/model-storming-workshop/)
