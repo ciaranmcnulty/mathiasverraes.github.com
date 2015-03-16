@@ -14,7 +14,7 @@ image: "http://verraes.net/img/posts/2015-03-14-event-storming-storytelling-visu
 
 Last week, my client's Chief Product Owner announced to the team they would introduce a set of new requirements using Event Storming, "as Mathias has taught us". (I've visited there regularly for the past half year or so). The session took about ten minutes, and included no brainstorming or collaboration of any kind. The only thing it had in common with Event Storming, was that the PO used colorful stickies.
 
-I was of course sceptical at first, but it turned out to be quite interesting in it's own right, as a presentation technique. The Chief PO and his team were well prepared. They had researched the regulations they had to comply with to enter a new market, and third party services they'd need to integrate with. They had done Event Storming (or something similar) amongst themselves, cleaned up the resulting artifact, and ordered and collected the stickies. During the short session with the development team, the Chief PO told the story, while the assistants supported it by adding stickies to wall as the story evolved. It was not a linear story. You could easily understand were a new branch in the story began, because the PO's attached new stickies at that location. 
+I was of course sceptical at first, but it turned out to be quite interesting in its own right, as a presentation technique. The Chief PO and his team were well prepared. They had researched the regulations they had to comply with to enter a new market, and third party services they'd need to integrate with. They had done Event Storming (or something similar) amongst themselves, cleaned up the resulting artifact, and ordered and collected the stickies. During the short session with the development team, the Chief PO told the story, while the assistants supported it by adding stickies to wall as the story evolved. It was not a linear story. You could easily understand were a new branch in the story began, because the PO's attached new stickies at that location. 
 
 Surely, for the developers, it didn't create the collaborative deep learning experience that Event Storming usually does. They were only spectators. But this style of visually supported presentation, was definitely much better than some of the alternatives, like purely oral storytelling, or a written set of requirements.  
 
@@ -27,7 +27,7 @@ Event Storming as described by Alberto Brandolini is rather prescriptive, and th
 The first few steps go something like this:
 
 - Write down a Domain Event on a sticky (preferably something that happens at the end, like "Bill was paid"). 
-- Ask what happened before that ("Bill was send") and before that, until you get to the beginning. 
+- Ask what happened before that ("Bill was sent") and before that, until you get to the beginning. 
 - Ask what caused the events to happen. Those are usually Commands (aka user intentions), other events, or simply the passage of time. 
 - Ask for what reason a Command can fail, and find the rules that impact the outcome of the Commands. This pushes you to discover alternative scenarios, missing events, connections between distant events...
 
