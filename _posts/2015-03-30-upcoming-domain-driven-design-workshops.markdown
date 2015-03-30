@@ -13,7 +13,7 @@ Two new workshops in May have been announced: a one-day Event Storming workshop 
 
 **One-day Event Storming workshop (language-agnostic)**
 
-- [Paris, France, May 19, 2015, together with Alberto Brandolini](http://ncrafts.io/)
+- [Paris, France, May 20, 2015, together with Alberto Brandolini](http://ncrafts.io/)
 
 **Three-day Experiencing Domain-Driven Design workshops (language-agnostic)**
 
