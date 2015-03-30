@@ -139,7 +139,7 @@ final class Time
 {
     private $hours, $minutes;
 
-    // We don't remove the empty cnostructor because it still needs to be private
+    // We don't remove the empty constructor because it still needs to be private
     private function __construct(){} 
 
     public static function fromValues($hours, $minutes)
