@@ -47,3 +47,5 @@ So why do we make it so hard on ourselves when we are just one team? We can borr
 ## Read more
 
 - [Bandwidth and Context Mapping](/2014/01/bandwidth-and-context-mapping/)
+- [Context Mapping: Life Expectancy](/2015/04/context-mapping-life-expectancy/)
+

@@ -42,3 +42,4 @@ I missed a small nuance. It's not about the amount of communication going on per
 ## Read more
 
 - [Buzzword-free Bounded Contexts](/2014/02/buzzword-free-bounded-contexts/)
+- [Context Mapping: Life Expectancy](/2015/04/context-mapping-life-expectancy/)

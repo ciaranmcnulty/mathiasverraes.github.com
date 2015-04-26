@@ -36,4 +36,8 @@ I'm moving away from using whiteboards for Context Mapping. They are generally t
 Trying to get everything on a single Context Map is impossible. A Context Map is a model, and, as any model, it's a problem solving tool. We judge a model by its usefulness. Of course, when you're new to the organization, or you've never visualized it, your problem is a lack of insight. When the goal is discovery, I don't mind if we end up with an unreadable model. Throw the map away afterwards, because the new shared understanding is the greatest artifact here. Over time, you might grow Context Maps that are stable. Only then you should treat the map as a document that you keep around.
 
 
+## Read more
+
+- [Bandwidth and Context Mapping](/2014/01/bandwidth-and-context-mapping/)
+- [Buzzword-free Bounded Contexts](/2014/02/buzzword-free-bounded-contexts/)
 
