@@ -1,5 +1,5 @@
 ---
-title: "Event Storming & DDD training in Paris and Belgrade"
+title: "Event Storming &amp; DDD training in Paris and Belgrade"
 slug: upcoming-domain-driven-design-workshops
 date: 2015-03-30
 layout: post
