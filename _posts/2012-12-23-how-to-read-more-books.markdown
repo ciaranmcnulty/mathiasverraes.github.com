@@ -164,6 +164,7 @@ Also from "Weinberg on Writing", similar to Taleb's advice:
 
 <blockquote>"If you decide that it's not worth finishing, do you stop, or do you drag yourself through it? If you stop, do you *really* stop, or do you leave the book partly finished, as a nagging chore in the back of your mind?"</blockquote> 
 
+Just remember that finishing a bad book is a waste of time and motivation. On the other hand, a great book is a window to a world you could never have found on your own. You still need to get out the door and discover that world. But that, dear reader, is out of reach for any book, and for this blog post.
 
 
 **What are your reading tips?**
