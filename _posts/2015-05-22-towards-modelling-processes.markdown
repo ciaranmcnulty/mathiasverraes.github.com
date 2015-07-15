@@ -14,7 +14,7 @@ The video & slides for my keynote at NCrafts 2015 in Paris.
 
 <iframe src="https://player.vimeo.com/video/131658140" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
-<a href="https://vimeo.com/131658140"><small>Watch the video on Vimeo</small></p>
+<a href="https://vimeo.com/131658140"><small>Watch the video on Vimeo</small></a>
 
 <script async class="speakerdeck-embed" data-id="ff4ed4d875c246f3996807942a09df4d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
