@@ -9,7 +9,6 @@ abstract: "A temporal view of business problems leads to deeper models."
 image: "http://verraes.net/img/posts/2015-05-22-towards-modelling-processes/Towards_Modelling_Processes.jpg"
 ---
 
-
 The video & slides for my keynote at NCrafts 2015 in Paris. 
 
 <iframe src="https://player.vimeo.com/video/131658140" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
@@ -19,6 +18,8 @@ The video & slides for my keynote at NCrafts 2015 in Paris.
 <script async class="speakerdeck-embed" data-id="ff4ed4d875c246f3996807942a09df4d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 <a href="https://speakerdeck.com/mathiasverraes/towards-modelling-processes"><small>See the slides on Speakerdeck</small></a> 
+
+I should probably blog about it... just pester me until I do :-)
 
 ## Abstract
 
