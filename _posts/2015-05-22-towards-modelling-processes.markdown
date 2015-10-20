@@ -4,7 +4,7 @@ slug: towards-modelling-processes
 date: 2015-05-22
 layout: post
 published: true
-tags: [blog, talk]
+tags: [talk]
 abstract: "A temporal view of business problems leads to deeper models."
 image: "http://verraes.net/img/posts/2015-05-22-towards-modelling-processes/Towards_Modelling_Processes.jpg"
 ---
