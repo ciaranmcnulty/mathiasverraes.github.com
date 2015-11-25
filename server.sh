@@ -3,6 +3,6 @@ echo .
 echo "http://localhost:4000"
 echo .
 
-# jekyll serve --watch
-bundle exec jekyll serve --watch
+jekyll serve --watch --incremental
+#bundle exec jekyll serve --watch --incremental
 
