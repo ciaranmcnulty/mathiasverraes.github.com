@@ -4,7 +4,7 @@ slug: upcoming-domain-driven-design-workshops
 date: 2015-03-30
 layout: post
 published: true
-tags: [blog, workshop]
+tags: [workshop]
 abstract: "One day and three day intensive DDD workshops in the UK, the Netherlands, Germany, and Belgium."
 image: "http://verraes.net/img/posts/2014-06-18-workshop-expddd/modelstorming.jpg"
 ---
