@@ -1,6 +1,6 @@
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /:year/:month/:title/
 url: http://verraes.net
 title: "Mathias Verraes' Blog"
-description: "I'm Mathias Verraes. I build enterprise web applications, and I deal with complex legacy systems. This is my blog."
+description: "Student of Systems • Meddler of Models • Labourer of Legacy"
