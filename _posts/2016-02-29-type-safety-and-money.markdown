@@ -204,7 +204,100 @@ RoundedEUR {
 
 Again, we can put the type system to work here. Remember that, per requirement 5, our reporting needs to be in EUR? We can now typehint for that, making it impossible to pass any other currency into our reporting. Similarly, the different compliance reporting strategies we need for requirement 4 can each be limited to the currencies they support.
 
-Sure, we get a bit of class explosion, but lots of small classes are preferred over long methods. They're not only easier to test. Short, declarative code, that is obviously correct, doesn't even need as many tests as long code blocks do. 
+Sure, we get a bit of class explosion. But so what? It's much preferable to long methods.
+
+
+## Minimalist Interfaces
+
+A benefit of having lots of small classes, is that we can get rid of a lot of code. Perhaps our main Bounded Context deals with the 10 `PreciseXYZ` types, but our Reporting Bounded Context only supports `RoundedEUR`. That means there's no need to support `RoundedUSD` etc, as we are not using it. This also implies that we don't need `round()` methods on any of the `PreciseXYZ` classes, apart from EUR. Less code means less boilerplate, less bugs, less tests, and less maintenance.
+
+Not supporting a way back from `RoundedEUR` to `PreciseEUR` is another example of a minimalist interface. Don't build behaviours that you don't need or want to discourage.
+
+## Single Responsibility
+
+Another benefit of these small, ultra-single-purpose classes, is that they very rarely need to change. This is Robert C. Martin's heuristic for the Single Responsibility Principle: 
+
+> "A class should have only one reason to change."
+
+A good design allows you to easily add or remove elements, or change the composition of the elements, but rarely requires you to actually change existing code. This in turn leads to fewer bugs and less work. 
+
+
+## Parent interface?
+
+You may have noticed that in the current design, I have no `Money` interface at the top of the object graph. Aren’t `PreciseMoney` and `RoundedMoney` both a kind of `Money`? Don’t they share a lot of methods?
+
+If we are trying to build a model inspired by the real-world, this would make sense. However, we shouldn’t judge our models by how well they fit our hierarchical categorisations. We judge our models by usefulness. A top-level `Money` interface adds no value at all; in fact it takes away value. 
+
+<img style="float:right;margin-left: 10px" src="/img/posts/2016-02-29-type-safety-and-money/BadMoney.png" alt="Bad Money">
+
+This may be a bit counterintuitive. `PreciseMoney` and `RoundedMoney`, although somewhat related, are fundamentally different types. We’ve designed our model for clarity, for the guarantee that we don’t mix up rounded and precise values. By allowing client code the typehint for the generic Money, we’ve taken away that clarity. There’s now no way of knowing which we’re getting. All responsibility for passing the correct type is now back in the hands of the caller. 
+
+
+## Overdesign 
+
+Is this overdesigned? Perhaps, depending on your context. When you only want to display some prices, it's likely overkill. With code that decides about huge amounts of money, a design like this helps me sleep at night. 
+
+There's a hint in the language. We don't say "this thing is designed", we say "this thing is designed for **that purpose**". Overdesign (and underdesign) simply mean "not designed for purpose", or "designed for a different purpose than the current one". The model presented here is designed for the purpose of high precision and confidence in our operations with money.
+
+Often, different aspects of our system have different requirements. This is precisely what Bounded Contexts are for: allow us to reason about our system as a a number of cooperating models, as opposed to one unified model. Perhaps our Product Catalog needs a really simple model for money, because it doesn't really do anything other than displaying prices. Sales and Reporting on the other hand might benefit from our more intricate design.
+
+<img src="/img/posts/2016-02-29-type-safety-and-money/Hexagonal.png" alt="Hexagonal">
+
+## Practicality
+   
+It’s important to distinguish between “overdesigned” and “impractical”. The solution to overdesign is to remove elements, make it simpler until it just fits. The solution to impracticality, can be to add more abstractions and shortcuts. 
+
+{% highlight java %}
+new PreciseMoney(5.00, new Currency(EUR))
+{% endhighlight %} 
+
+is a handful to write. There’s no reason why you shouldn’t add a static factory method, like
+
+{% highlight java %}
+PreciseMoney.EUR(5.00)
+{% endhighlight %} 
+
+Or just a naked function if your language supports it
+
+{% highlight java %}
+EUR(5.00)
+{% endhighlight %} 
+
+Or a unicode function
+
+`€(5.00)`
+
+(Unfortunately, $ is used in many languages to mean all kinds of things, none of which are USD. Be creative!)
+
+## Defensive model
+
+There is of course no way to defend your code against bad coders. Unless you’re doing [code reviews](/2013/10/pre-merge-code-reviews/), someone could change the Value Objects to be mutable, and delete the tests. (Funny story: I was once told that the new developer hired to replace me after I left a job, replaced all private methods by public ones, “because it’s more convenient”.) 
+
+I do believe though that good design communicates intent. No matter the level of the developers using your code, if they see two types for rounded and precise money, chances are they are at least going to consider that perhaps we can’t just mix the two in operations without thinking about it.
+
+
+## Going Further
+
+<img style="float:right;margin-left: 10px" src="/img/posts/2016-02-29-type-safety-and-money/Price.png" alt="Price">
+
+Value Objects are the ultimate composable objects, so we can keep looking for implicit concepts that we can make explicit. For example, we can naively use our money type to represent prices. But what if a price is not so simple? Maybe `Price` is composed of a `PreciseMoney` and a `VATRate` or `Tax` object of sorts. Maybe a `ProductPrice` is composed multiple `Price` objects for different amounts, for example  if you offer a discount when buying in bulk. 
+
+Value Objects make it easy to build abstractions that can handle lots of complexity at a very small cognitive cost to the developer using it. Finding the abstractions can be costly and hard, but spending the effort here usually impacts code quality and maintainability so much in the long run, that it's very often worth it.
+
+
+## Timezone Type Safety
+
+The concept of using the type system to reduce a whole classes of errors in code without resorting to excessive tests, can be applied to many domains. Recently, I was late for a talk I was doing at a meetup in London, because a certain website's "Export to Google Calendar" feature didn't take timezones into account. Timezone bugs are not only a nuisance to a regular traveler like myself, but can have dire consequences. 
+
+Haskell's Time library has separate types for `UTCTime` and `ZonedTime`, and offers functions to convert between them. This gives guarantees from the compiler that a programmer can not easily mix them up, or implicitly converts between them. Ideally, your code should use `UTCTime` everywhere, and only convert to and from `ZonedTime` when human users are involved. It should be easy enough to build something like this in object oriented languages.
+
+## Conclusion
+
+In many environments, dealing with money is too critical to be regarded as a Generic Subdomain. Different projects have different needs and expectations of how money will be handled. If money matters, you need to build a model that fits your specific problem space like a glove. Some of the tools in our belt are small composable building blocks, making the implicit explicit, and using the type system to our advantage. You might end up with something entirely different.
+
+*All good design is redesign.*
+
+
 
 
 
