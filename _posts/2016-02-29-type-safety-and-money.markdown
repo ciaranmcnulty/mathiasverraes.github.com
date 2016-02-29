@@ -52,6 +52,7 @@ This is what we expect from our model:
 ## Assumptions
  
 To understand this post, I'm assuming you know:
+
 - what a Value Object is, and why you'd want some;
 - how you can make your objects immutable;
 - why they _should_ be immutable;
