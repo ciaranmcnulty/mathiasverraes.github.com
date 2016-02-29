@@ -6,8 +6,10 @@ layout: post
 published: true
 tags: [blog]
 abstract: "All good design is redesign."
-image: "http://verraes.net/img/posts/TODO"
+image: "http://verraes.net/img/posts/2016-02-29-type-safety-and-money/MoneyTree.jpg"
 ---
+
+<!-- photo credit http://s1153.photobucket.com/user/campbellchevelle/media/MoneyTree5_zpszzjjrpdw.jpg.html -->
 
 Below is an attempt at illustrating a design/redesign process I went through at a client, who's started refactoring the core systems their business depends on. Design is the part of software development that is the most messy, the hardest to fit into rules or well-defined processes. In fact, while writing this post, I tweeted:
 
@@ -25,6 +27,8 @@ Over the years, a bunch of forks and variations appeared. I welcomed this, as ma
 
 
 ## Design Flaws
+
+<img style="float:right;margin-left: 10px" src="/img/posts/2016-02-29-type-safety-and-money/MoneyTree-small.jpg" alt="MoneyTree">
 
 Apart from being incomplete, the library suffers from fundamental design flaws, some of which can’t be fixed without breaking it.
 
