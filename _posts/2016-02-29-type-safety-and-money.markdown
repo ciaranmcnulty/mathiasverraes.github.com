@@ -69,7 +69,7 @@ Our first instinct is to have the `Money` object from [Fowler's PoEAA](http://am
 
 <img style="float:right;margin-left: 10px" src="/img/posts/2016-02-29-type-safety-and-money/Money.png" alt="Money">
 
-`Currency` is an enum type supporting our 10 currencies (A simple assertion will do if your language doesn't have enums). We can't initialise the `Currency` object with ay other value than our 10 currencies. It only uses the 3-letter ISO symbols, anything else is an error. That satisfies requirement 1.
+`Currency` is an enum type supporting our 10 currencies (A simple assertion will do if your language doesn't have enums). We can't initialise the `Currency` object with any other value than our 10 currencies. It only uses the 3-letter ISO symbols, anything else is an error. That satisfies requirement 1.
 
 <img style="float:right;margin-left: 10px" src="/img/posts/2016-02-29-type-safety-and-money/MoneyFormatter.png" alt="MoneyFormatter">
 
