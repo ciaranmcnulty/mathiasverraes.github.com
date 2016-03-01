@@ -171,7 +171,7 @@ ConversionRate {
 
 The `convert` method makes sure that we never accidentally convert USD to EUR using the rate that was actually meant for GBP to BTC. All it needs to do is throw an exception if the arguments have the wrong currency.
 
-The other cool thing here is that we don't need to pass around `Exchange`. Instead, we pass the around the much smaller, simpler, `ConversionRate` objects. They are, once again, more composable. Already the possibilities for reuse become obvious: for example, a transaction log can store a copy of the `ConversionRate` instance that was used for a conversion, so you get accountability.
+The other cool thing here is that we don't need to pass around `Exchange`. Instead, we pass around the much smaller, simpler, `ConversionRate` objects. They are, once again, more composable. Already the possibilities for reuse become obvious: for example, a transaction log can store a copy of the `ConversionRate` instance that was used for a conversion, so you get accountability.
 
 ## Simpler Elements 
 
