@@ -63,7 +63,9 @@ To understand this post, I'm assuming you know:
 
 Let's design!
  
-Our first instinct is to have the `Money` object from [Fowler's PoEAA](http://amzn.to/1TN7Tq4), consisting of a float and a currency, which in turn could be an object as well. Both are immutable.
+Our first instinct is to have the `Money` object from [Fowler's PoEAA](http://amzn.to/1TN7Tq4), consisting of a float<sup>*</sup> and a currency, which in turn could be an object as well. Both are immutable.
+
+(<sup> * </sup> You may not want to use the actual float type in your programming language for dealing with money, as you may run into issues with precision. Do your research.)
 
 <img style="float:right;margin-left: 10px" src="/img/posts/2016-02-29-type-safety-and-money/Money.png" alt="Money">
 
