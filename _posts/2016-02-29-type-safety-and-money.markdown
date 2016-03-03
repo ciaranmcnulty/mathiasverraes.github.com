@@ -73,7 +73,7 @@ Our first instinct is to have the `Money` object from [Fowler's PoEAA](http://am
 
 <img style="float:right;margin-left: 10px" src="/img/posts/2016-02-29-type-safety-and-money/MoneyFormatter.png" alt="MoneyFormatter">
 
-`Money`’s constructor can round floats with more than 8 decimals. We can add some operations, like `add(Money other) : Money` and `multiply(Money other) : Money`. They also round to 8 decimals if needed. 
+`Money`’s constructor can round floats with more than 8 decimals. We can add some operations, like `add(Money other) : Money` and `multiply(float operand) : Money`. They also round to 8 decimals if needed. 
 
 
 Requirement 3 (showing pretty-printed, rounded values to the users), is clearly presentation logic. We should avoid muddying up our domain model for this. So we add a `MoneyFormatter` in the presentation layer, which takes a `Money` argument and returns a string, such as €5.00 or 5,00€, depending on local standards. Perhaps we even make a HTML widget or helper of sorts, so that our templates don’t need to worry about it.
