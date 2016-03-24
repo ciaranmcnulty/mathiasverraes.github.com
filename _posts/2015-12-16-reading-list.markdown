@@ -15,7 +15,7 @@ Here's a bunch of books that I like, that seem to have a lasting influence on me
 
 
 - [Domain-Driven Design — Eric Evans](http://amzn.to/1CdXXP9)
-- [Enterprise Integration Patterns — Gregor Hohpe et al](http://amzn.to/1dFVRMd)
+- [Enterprise Integration Patterns — Gregor Hohpe, Bobby Woolfe](http://amzn.to/1dFVRMd)
 - [Working Effectively with Legacy Code — Michael Feathers](http://amzn.to/1dFXMR2)
 - [Patterns of Enterprise Application Architecture — Martin Fowler](http://amzn.to/1dFWKEz)
 - [Growing Object-Oriented Software — Steve Freeman, Nat Pryce](http://amzn.to/1LQJax8)
