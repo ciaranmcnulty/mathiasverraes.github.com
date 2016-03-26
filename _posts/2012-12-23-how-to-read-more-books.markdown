@@ -166,6 +166,12 @@ Also from "Weinberg on Writing", similar to Taleb's advice:
 
 Just remember that finishing a bad book is a waste of time and motivation. On the other hand, a great book is a window to a world you could never have found on your own. You still need to get out the door and discover that world. But that, dear reader, is out of reach for any book, and for this blog post.
 
+(Update March 26, 2016:)
+
+## Diversify before Re-reading
+
+If you read a book you really want to (or need to) understand, but you're struggling, it may seem tempting but drudging to re-read it. Find a different book on the same topic instead. Often the different point of view helps you grasp the original book.
+
 Ready to start reading? [Here are some books that I like.](/2015/12/reading-list/)
 
 **What are your reading tips?**
