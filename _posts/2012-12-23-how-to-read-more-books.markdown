@@ -133,32 +133,32 @@ I've always felt walking was good for thinking and getting the creative juices f
 <img style="float:right;margin-left: 10px" src="/img/posts/2012-12-23/install-software-in-brain.jpg" alt="It's called reading. It's how people install new software into their brains">
 
 
-## Don't read biographies
+### Don't read biographies
 
 Although I'm sure some are valuable, don't read books written *about* interesting people. Read books written *by* interesting people.
 
-## Don't read single-idea books
+### Don't read single-idea books
 
 "This book was based on a popular article in the New York Times"? Dead give away: one idea, lots of air. "The Three Secrets to...", "Five steps to...": It's pretty likely that the book can be explained in a just a few paragraphs. Sometimes, a helpful Amazon customer review will in fact summarize the whole book for you. Read that instead. 
 
 
 (Update July 22, 2014:)
 
-## Read what gives you delight
+### Read what gives you delight
 
 From [The Pleasures of Reading in an Age of Distraction](http://www.farnamstreetblog.com/2013/01/the-pleasures-of-reading-in-an-age-of-distraction/): 
 <blockquote>"Read what gives you delight — at least most of the time — and do so without shame. And even if you are that rare sort of person who is delighted chiefly by what some people call Great Books, don’t make them your steady intellectual diet, any more than you would eat at the most elegant of restaurants every day."</blockquote>
 
 (Update Feb 10, 2015:)
 
-## Riffle the pages
+### Riffle the pages
 
 I don't know how much Gerald M. Weinberg *reads*, but he has *written* over 50 books. From "Weinberg on Writing", I'm quoting a tip on reading nonfiction:
 
 <blockquote>"My own way (...) is to riffle the pages, scanning from back to front for something interesting that catches my eye, usually a picture or diagram of some sort. I start reading from there and continue until I lose interest. The I riffle again and repeat the process." </blockquote>
 
 
-## Stop means stop
+### Stop means stop
 
 Also from "Weinberg on Writing", similar to Taleb's advice:
 
@@ -168,7 +168,7 @@ Just remember that finishing a bad book is a waste of time and motivation. On th
 
 (Update March 26, 2016:)
 
-## Diversify before Re-reading
+### Diversify before Re-reading
 
 If you read a book you really want to (or need to) understand, but you're struggling, it may seem tempting but drudging to re-read it. Find a different book on the same topic instead. Often the different point of view helps you grasp the original book.
 
