@@ -44,7 +44,7 @@ This is what we expect from our model:
 
 1.	We need to support about 10 currencies, possibly more in the future. When we do add new currencies, it is assumed that the in-house developers will add support in the code. There’s no UI for adding new currencies.
 2.	All operations need to done with a precision of 8 decimals. This is a business decision.
-3.	When showing amounts to users, or pass them along over an API, we always stick to the currency’s official division. In the case of Bitcoin, that does indeed mean we’re keeping a precision of 1 satoshi aka BTC 10−8.
+3.	When showing amounts to users, or pass them along over an API, we always stick to the currency’s official division. In the case of Bitcoin, that does indeed mean we’re keeping a precision of 1 satoshi aka BTC 10<sup>−8</sup>.
 4.	In some markets, our software will need to do specific compliance reporting.
 5.	All internal reporting needs to be in EUR, no matter what the original currency was.
 6.	We’re using some legacy and third-party systems, that also publish revenues to our internal reporting tool. Most of them only support the currency’s official division, and can’t deal with higher precision.
@@ -134,7 +134,7 @@ RoundedMoney.multiply(Float operand) : PreciseMoney
 
 Notice the different return types. 
 
-Perhaps your writing some client code that wants to do multiplication, but doesn't care about high precision. Chaining methods would suffice here:
+Perhaps you're writing some client code that wants to do multiplication, but doesn't care about high precision. Chaining methods would suffice here:
 
 {% highlight java %}
 someCash.multiply(0.3333).round()
