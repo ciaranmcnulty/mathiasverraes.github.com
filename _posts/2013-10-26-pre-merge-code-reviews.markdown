@@ -142,5 +142,6 @@ not the author, and stepping through the code. Worth reading!
 
 ## Read next
 
+- [Code Reviews and Blame Culture](/2016/04/code-reviews-and-blame-culture/)
 - [How Much Testing is Too Much?](/2014/12/how-much-testing-is-too-much/)
 - [Small Controlled Experiments](/2014/03/small-controlled-experiments/)
