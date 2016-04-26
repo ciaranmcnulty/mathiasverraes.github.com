@@ -14,3 +14,7 @@ This talk is based on an [older blog post of mine](/2013/07/managed-technical-de
 
 <script async class="speakerdeck-embed" data-id="be237370e027013121922af1816f6724" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
+## Read More
+
+- [Managed Technical Debt](/2013/07/managed-technical-debt/)
+- [The Repair/Replace Heuristic for Legacy Software](/2016/04/repair-replace-heuristic-for-legacy-software/)

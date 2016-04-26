@@ -85,3 +85,4 @@ Be sure to let me know your experience with if you've tried it as well!
 
 - [Beautiful Code](http://verraes.net/2011/04/beautiful-code/)
 - [Managed Technical Debt - Revisited](/2014/07/managed-technical-debt-revisited/)
+- [The Repair/Replace Heuristic for Legacy Software](/2016/04/repair-replace-heuristic-for-legacy-software/)
