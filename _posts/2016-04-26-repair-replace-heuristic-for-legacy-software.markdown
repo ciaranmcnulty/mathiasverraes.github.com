@@ -23,6 +23,8 @@ Technical Debt has no measure like money, and no ruleset like Property law, and,
 
 In "[Managed Technical Debt](/2013/07/managed-technical-debt/)", I propose a cheap, imprecise, but surprisingly effective method for mapping and measuring debt. In short, it involves posting stickies whenever progress is impeded by debt, and keep marking the stickies for every incident. Over time, we build a map that is not based on perceived quality, but on the actual cost of debt. The *Wall of Technical Debt* serves as a decision tool for focusing our repayment efforts.
 
+<small><a href="http://www.ruthmalan.com/Journal/2013/2013JournalMarch.htm#Technical_Debt">Shoelaces cartoon by Ruth Malan</a></small> 
+
 ## Heuristics
 
 So now we have identified our worst Technical Debt, and made estimations on its relative size. What should we do, replace it or repair it?
@@ -55,8 +57,6 @@ Even when you're not trying to decide on **Repair/Replace** — perhaps the deci
 <a href="http://amzn.to/234iIUW">The Secrets of Consulting, Gerald M. Weinberg, 1985</a></small></p></blockquote>
 
 Or, an ounce of prevention is better than a pound of cure.
-
-<small><a href="http://www.ruthmalan.com/Journal/2013/2013JournalMarch.htm#Technical_Debt">Shoelaces cartoon by Ruth Malan</a></small> 
 
 
 ## Read More
