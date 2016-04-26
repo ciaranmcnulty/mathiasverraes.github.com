@@ -64,7 +64,7 @@ and finds himself on the street with no survival skills to speak of, and no expe
 The taxidriver might take a hit from the recession, but his years of being subjected to highs and low, made him antifragile.
 
 Even though small economic units may be fragile, the fragility of the parts can make the system as a whole more antifragile.
-(Compare to John Gall's "An airplane is a systems that consists of parts that tend to fall down.")
+(Compare to John Gall's "An airplane is a system that consists of parts that tend to fall down.")
 
 
 ## The Book
