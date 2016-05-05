@@ -4,7 +4,7 @@ slug: lightning-talks
 date: 2016-05-05
 layout: post
 published: true
-tags: [talk]
+tags: [blog, talk]
 abstract: "Five minute lightning talks, to practice public speaking."
 image: "http://verraes.net/img/posts/2016-05-05-lightning-talks/montyhall.jpg"
 ---
