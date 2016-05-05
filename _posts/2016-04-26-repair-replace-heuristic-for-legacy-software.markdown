@@ -56,6 +56,11 @@ Even when you're not trying to decide on **Repair/Replace** — perhaps the deci
 
 Or, an ounce of prevention is better than a pound of cure.
 
+
+(Update May 5 2016:)
+
+When I say system, I don't necessarily mean "the entire system". Any large system, no matter if it is monolithic, can be thought of as a composition of a systems. They may be tightly coupled, and hard to replace or repair individually, but they have their own purpose, history, forces, and authors. And, just to drive home the point: what I propose above is a heuristic. Good decision making uses a multitude of heuristics and balances all forces.  
+
 <small><a href="http://www.ruthmalan.com/Journal/2013/2013JournalMarch.htm#Technical_Debt">Shoelaces cartoon by Ruth Malan</a></small> 
 
 
