@@ -36,3 +36,8 @@ May 2016, SoCraTes Belgium
 ## Property Based Testing
 April 2016, SoCraTes Belgium and CukeUp London
 <script async class="speakerdeck-embed" data-id="eedd62be375f4802b61e3a6afc683c84" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+## The World's Shortest and Most Chaotic Introduction to Event Storming
+April 2016, CukeUp London
+This was a hands-on Event Storming session with a short introduction.)
+<script async class="speakerdeck-embed" data-id="dc2dac4a332f44d6bc338f3a58660b8e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
