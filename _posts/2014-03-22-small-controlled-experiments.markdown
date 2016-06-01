@@ -1,6 +1,6 @@
 ---
 title: Small Controlled Experiments
-slug: small-controlled-experiments.markdown
+slug: small-controlled-experiments
 date: 2014-03-22
 layout: post
 published: true
