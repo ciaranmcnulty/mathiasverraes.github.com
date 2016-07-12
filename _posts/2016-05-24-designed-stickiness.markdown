@@ -9,7 +9,9 @@ abstract: "How sticky metaphors can communicate better software models."
 image: "http://verraes.net/img/posts/2016-05-24-designed-stickiness/designed-stickiness.jpg"
 ---
 
-Slides for my NCrafts talk on software metaphors. As always not very useful without the explanation, but I'll link to the video as soon as it's published. In the meantime, [Yannick Grenzinger](https://twitter.com/ygrenzinger) published a short but accurate [overview of the talk](https://medium.com/@communitycarbonit/il-%C3%A9tait-une-fois-%C3%A0-ncrafts-3eme-%C3%A9pisode-be0d903431c1#.mfbapa5df) (in French). 
+Video & slides for my NCrafts talk on software metaphors. 
+ 
+<iframe src="https://player.vimeo.com/video/167722762" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <script async class="speakerdeck-embed" data-id="ebac02f6dafb48baa086edb30fdd3a49" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
