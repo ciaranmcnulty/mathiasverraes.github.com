@@ -1,6 +1,6 @@
 ---
 title: Small Controlled Experiments (revisited)
-slug: small-controlled-experiments-revisited.markdown
+slug: small-controlled-experiments-revisited
 date: 2014-10-03
 layout: post
 published: true

@@ -1,6 +1,6 @@
 ---
 title: Practical Event Sourcing
-slug: practical-event-sourcing.markdown
+slug: practical-event-sourcing
 date: 2014-03-18
 layout: post
 published: true

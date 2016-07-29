@@ -1,6 +1,6 @@
 ---
 title: Domain-Driven Design is Linguistic
-slug: domain-driven-design-is-linguistic.markdown
+slug: domain-driven-design-is-linguistic
 date: 2014-01-01
 layout: post
 published: true

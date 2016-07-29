@@ -4,7 +4,6 @@ slug: 2012-11-02-semantic-html-with-twitter-bootstrap
 date: 2012-11-02
 layout: post
 published: true
-filename: 2012-11-02-semantic-html-with-twitter-bootstrap.markdown
 tags: [blog]
 ---
 
